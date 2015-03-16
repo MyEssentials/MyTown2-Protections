@@ -1,0 +1,88 @@
+{
+  "modid": "Minecraft",
+  "segments": [
+    {
+      "class": "net.minecraft.block.BlockButton",
+      "type": "block",
+      "flag": "activateBlocks"
+    },
+    {
+      "class": "net.minecraft.block.BlockDoor",
+      "type": "block",
+      "flag": "activateBlocks"
+    },
+    {
+      "class": "net.minecraft.block.BlockLever",
+      "type": "block",
+      "flag": "activateBlocks"
+    },
+    {
+      "class": "net.minecraft.block.BlockFenceGate",
+      "type": "block",
+      "flag": "activateBlocks"
+    },
+    {
+      "class": "net.minecraft.block.BlockDragonEgg",
+      "type": "block",
+      "flag": "activateBlocks"
+    },
+    {
+      "class": "net.minecraft.block.BlockCake",
+      "type": "block",
+      "flag": "activateBlocks"
+    },
+    {
+      "class": "net.minecraft.block.BlockTrapDoor",
+      "type": "block",
+      "flag": "activateBlocks"
+    },
+    {
+      "class": "net.minecraft.block.BlockJukebox",
+      "type": "block",
+      "flag": "activateBlocks"
+    },
+    {
+      "class": "net.minecraft.entity.monster.EntityMob",
+      "type": "entity",
+      "entityType": "hostile"
+    },
+    {
+      "class": "net.minecraft.entity.EntityAgeable",
+      "type": "entity",
+      "entityType": "passive"
+    },
+    {
+      "class": "net.minecraft.entity.monster.EntityCreeper",
+      "type": "entity",
+      "entityType": "explosive",
+      "range": 5
+    },
+    {
+      "class": "net.minecraft.entity.item.EntityTNTPrimed",
+      "type": "entity",
+      "entityType": "explosive",
+      "range": 5
+    },
+    {
+      "class": "net.minecraft.item.ItemMonsterPlacer",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": true,
+      "flag": "useItems"
+    },
+    {
+      "class": "net.minecraft.item.ItemMonsterPlacer",
+      "type": "item",
+      "itemType": "rightClickEntity",
+      "onAdjacent": false,
+      "flag": "useItems"
+    },
+    {
+      "class": "net.minecraft.item.ItemShears",
+      "type": "item",
+      "itemType": "rightClickEntity",
+      "onAdjacent": false,
+      "flag": "useItems"
+    }
+  ]
+}
