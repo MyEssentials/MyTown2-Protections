@@ -42,6 +42,11 @@
       "flag": "activateBlocks"
     },
     {
+      "class": "net.minecraft.block.BlockContainer",
+      "type": "block",
+      "flag": "accessBlocks"
+    },
+    {
       "class": "net.minecraft.entity.monster.EntityMob",
       "type": "entity",
       "entityType": "hostile"
@@ -64,6 +69,11 @@
       "range": 5
     },
     {
+      "class": "net.minecraft.entity.item.EntityItemFrame",
+      "type": "entity",
+      "entityType": "passive"
+    },
+    {
       "class": "net.minecraft.item.ItemMonsterPlacer",
       "type": "item",
       "itemType": "rightClickBlock",
@@ -82,6 +92,13 @@
       "type": "item",
       "itemType": "rightClickEntity",
       "onAdjacent": false,
+      "flag": "useItems"
+    },
+    {
+      "class": "net.minecraft.item.ItemHangingEntity",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": true,
       "flag": "useItems"
     }
   ]
