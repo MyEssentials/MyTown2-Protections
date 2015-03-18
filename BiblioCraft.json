@@ -1,0 +1,22 @@
+{
+  "modid": "BiblioCraft",
+  "segments": [
+    {
+      "class": "jds.bibliocraft.blocks.BlockMapFrame",
+      "type": "block",
+      "flag": "activateBlocks"
+    },
+    {
+      "class": "jds.bibliocraft.blocks.BlockStuff",
+      "type": "block",
+      "flag": "accessBlocks"
+    },
+    {
+      "class": "jds.bibliocraft.items.ItemDrill",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "useItems"
+    }
+  ]
+}
