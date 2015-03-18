@@ -4,47 +4,86 @@
     {
       "class": "net.minecraft.block.BlockButton",
       "type": "block",
-      "flag": "activateBlocks"
+      "flag": "activateBlocks",
+      "meta": -1
     },
     {
       "class": "net.minecraft.block.BlockDoor",
       "type": "block",
-      "flag": "activateBlocks"
+      "flag": "activateBlocks",
+      "meta": -1
     },
     {
       "class": "net.minecraft.block.BlockLever",
       "type": "block",
-      "flag": "activateBlocks"
+      "flag": "activateBlocks",
+      "meta": -1
     },
     {
       "class": "net.minecraft.block.BlockFenceGate",
       "type": "block",
-      "flag": "activateBlocks"
+      "flag": "activateBlocks",
+      "meta": -1
     },
     {
       "class": "net.minecraft.block.BlockDragonEgg",
       "type": "block",
-      "flag": "activateBlocks"
+      "flag": "activateBlocks",
+      "meta": -1
     },
     {
       "class": "net.minecraft.block.BlockCake",
       "type": "block",
-      "flag": "activateBlocks"
+      "flag": "activateBlocks",
+      "meta": -1
     },
     {
       "class": "net.minecraft.block.BlockTrapDoor",
       "type": "block",
-      "flag": "activateBlocks"
+      "flag": "activateBlocks",
+      "meta": -1
     },
     {
       "class": "net.minecraft.block.BlockJukebox",
       "type": "block",
-      "flag": "activateBlocks"
+      "flag": "activateBlocks",
+      "meta": -1
+    },
+    {
+      "class": "net.minecraft.block.BlockRedstoneRepeater",
+      "type": "block",
+      "flag": "activateBlocks",
+      "meta": -1
+    },
+    {
+      "class": "net.minecraft.block.BlockRedstoneComparator",
+      "type": "block",
+      "flag": "activateBlocks",
+      "meta": -1
+    },
+    {
+      "class": "net.minecraft.block.BlockAnvil",
+      "type": "block",
+      "flag": "accessBlocks",
+      "meta": -1
+    },
+    {
+      "class": "net.minecraft.block.BlockCauldron",
+      "type": "block",
+      "flag": "accessBlocks",
+      "meta": -1
     },
     {
       "class": "net.minecraft.block.BlockContainer",
       "type": "block",
-      "flag": "accessBlocks"
+      "flag": "accessBlocks",
+      "meta": -1
+    },
+    {
+      "class": "net.minecraft.block.BlockBed",
+      "type": "block",
+      "flag": "accessBlocks",
+      "meta": -1
     },
     {
       "class": "net.minecraft.entity.monster.EntityMob",
