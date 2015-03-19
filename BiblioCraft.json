@@ -16,7 +16,7 @@
       "type": "item",
       "itemType": "rightClickBlock",
       "onAdjacent": false,
-      "flag": "useItems"
+      "flag": "modifyBlocks"
     }
   ]
 }
