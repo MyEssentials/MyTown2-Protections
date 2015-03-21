@@ -1,0 +1,102 @@
+{
+  "modid": "BuildCraft|Factory",
+  "segments": [
+    {
+      "class": "buildcraft.builders.TileConstructionMarker",
+      "type": "tileEntity",
+      "flag": "modifyBlocks",
+      "Z1": [
+        {
+          "element": "getBox",
+          "type": "method"
+        },
+        {
+          "element": "zMin",
+          "type": "field"
+        }
+      ],
+      "Z2": [
+        {
+          "element": "getBox",
+          "type": "method"
+        },
+        {
+          "element": "zMax",
+          "type": "field"
+        }
+      ],
+      "X1": [
+        {
+          "element": "getBox",
+          "type": "method"
+        },
+        {
+          "element": "xMin",
+          "type": "field"
+        }
+      ],
+      "X2": [
+        {
+          "element": "getBox",
+          "type": "method"
+        },
+        {
+          "element": "xMax",
+          "type": "field"
+        }
+      ]
+    },
+    {
+      "class": "buildcraft.core.builders.TileAbstractBuilder",
+      "type": "tileEntity",
+      "flag": "modifyBlocks",
+      "Z1": [
+        {
+          "element": "getBox",
+          "type": "method"
+        },
+        {
+          "element": "zMin",
+          "type": "field"
+        }
+      ],
+      "Z2": [
+        {
+          "element": "getBox",
+          "type": "method"
+        },
+        {
+          "element": "zMax",
+          "type": "field"
+        }
+      ],
+      "X1": [
+        {
+          "element": "getBox",
+          "type": "method"
+        },
+        {
+          "element": "xMin",
+          "type": "field"
+        }
+      ],
+      "X2": [
+        {
+          "element": "getBox",
+          "type": "method"
+        },
+        {
+          "element": "xMax",
+          "type": "field"
+        }
+      ]
+    },
+    {
+      "class": "buildcraft.core.ItemWrench",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "modifyBlocks"
+    }
+  ]
+}
