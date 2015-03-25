@@ -1,0 +1,10 @@
+{
+  "modid": "ThermalExpansion",
+  "segments": [
+    {
+      "class": "cofh.thermalexpansion.block.machine.BlockMachine",
+      "type": "block",
+      "flag": "accessBlocks"
+    }
+  ]
+}
