@@ -1,0 +1,10 @@
+{
+  "modid": "EnderZoo",
+  "segments": [
+    {
+      "class": "crazypants.enderzoo.entity.EntityFallenMount",
+      "type": "entity",
+      "entityType": "hostile"
+    }
+  ]
+}
