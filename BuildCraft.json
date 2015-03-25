@@ -5,7 +5,7 @@
       "class": "buildcraft.builders.TileConstructionMarker",
       "type": "tileEntity",
       "flag": "modifyBlocks",
-      "Z1": [
+      "zMin": [
         {
           "element": "getBox",
           "type": "method"
@@ -15,7 +15,7 @@
           "type": "field"
         }
       ],
-      "Z2": [
+      "zMax": [
         {
           "element": "getBox",
           "type": "method"
@@ -25,7 +25,7 @@
           "type": "field"
         }
       ],
-      "X1": [
+      "xMin": [
         {
           "element": "getBox",
           "type": "method"
@@ -35,7 +35,7 @@
           "type": "field"
         }
       ],
-      "X2": [
+      "xMax": [
         {
           "element": "getBox",
           "type": "method"
@@ -50,7 +50,7 @@
       "class": "buildcraft.core.builders.TileAbstractBuilder",
       "type": "tileEntity",
       "flag": "modifyBlocks",
-      "Z1": [
+      "zMin": [
         {
           "element": "getBox",
           "type": "method"
@@ -60,7 +60,7 @@
           "type": "field"
         }
       ],
-      "Z2": [
+      "zMax": [
         {
           "element": "getBox",
           "type": "method"
@@ -70,7 +70,7 @@
           "type": "field"
         }
       ],
-      "X1": [
+      "xMin": [
         {
           "element": "getBox",
           "type": "method"
@@ -80,7 +80,7 @@
           "type": "field"
         }
       ],
-      "X2": [
+      "xMax": [
         {
           "element": "getBox",
           "type": "method"
