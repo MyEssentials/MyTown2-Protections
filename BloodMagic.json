@@ -1,0 +1,26 @@
+{
+  "modid": "AWWayofTime",
+  "segments": [
+    {
+      "class": "WayofTime.alchemicalWizardry.common.items.sigil.LavaSigil",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "modifyBlocks"
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.items.sigil.WaterSigil",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "modifyBlocks"
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.items.sigil.ItemBloodLightSigil",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "modifyBlocks"
+    }
+  ]
+}
