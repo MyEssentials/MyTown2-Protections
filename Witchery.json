@@ -1,0 +1,12 @@
+{
+  "modid": "witchery",
+  "segments": [
+    {
+      "class": "com.emoniph.witchery.item.ItemTaglockKit",
+      "type": "item",
+      "itemType": "rightClickEntity",
+      "onAdjacent": false,
+      "flag": "useItems"
+    }
+  ]
+}
