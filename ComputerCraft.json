@@ -1,0 +1,10 @@
+{
+  "modid": "ComputerCraft",
+  "segments": [
+    {
+      "class": "dan200.computercraft.shared.turtle.blocks.TileTurtle",
+      "type": "tileEntity",
+      "flag": "modifyBlocks"
+    }
+  ]
+}
