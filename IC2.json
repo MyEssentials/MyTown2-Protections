@@ -1,0 +1,21 @@
+{
+  "modid": "IC2",
+  "segments": [
+    {
+      "class": "ic2.core.item.tool.ItemElectricTool",
+      "type": "item",
+      "itemType": "rightClickAir",
+      "onAdjacent": false,
+      "flag": "useItems",
+      "range": 48
+    },
+    {
+      "class": "ic2.core.item.tool.ItemElectricTool",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "useItems",
+      "range": 48
+    }
+  ]
+}
