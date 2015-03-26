@@ -1,0 +1,10 @@
+{
+  "modid": "MineFactoryReloaded",
+  "segments": [
+    {
+      "class": "powercrystals.minefactoryreloaded.block.BlockFactory",
+      "type": "block",
+      "flag": "accessBlocks"
+    }
+  ]
+}
