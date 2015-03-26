@@ -9,6 +9,13 @@
       "flag": "useItems"
     },
     {
+      "class": "twilightforest.item.ItemTFCrumbleHorn",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "useItems"
+    },
+    {
       "class": "twilightforest.block.BlockTFUncraftingTable",
       "type": "block",
       "flag": "accessBlocks"
