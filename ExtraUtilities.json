@@ -1,0 +1,20 @@
+{
+  "modid": "ExtraUtilities",
+  "segments": [
+    {
+      "class": "com.rwtema.extrautils.tileentity.enderconstructor.BlockEnderConstructor",
+      "type": "block",
+      "flag": "accessBlocks"
+    },
+    {
+      "class": "com.rwtema.extrautils.tileentity.transfernodes.BlockTransferNode",
+      "type": "block",
+      "flag": "accessBlocks"
+    },
+    {
+      "class": "com.rwtema.extrautils.tileentity.transfernodes.BlockTransferPipe",
+      "type": "block",
+      "flag": "accessBlocks"
+    }
+  ]
+}
