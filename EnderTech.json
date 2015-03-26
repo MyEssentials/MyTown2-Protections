@@ -6,7 +6,8 @@
       "type": "item",
       "itemType": "rightClickBlock",
       "onAdjacent": false,
-      "flag": "useItems"
+      "flag": "useItems",
+      "range": 10
     }
   ]
 }
