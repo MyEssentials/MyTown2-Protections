@@ -6,7 +6,16 @@
       "type": "item",
       "itemType": "rightClickBlock",
       "onAdjacent": false,
-      "flag": "modifyBlocks"
+      "flag": "modifyBlocks",
+      "range": 30
+    },
+    {
+      "class": "thaumcraft.common.items.wands.ItemWandCasting",
+      "type": "item",
+      "itemType": "rightClickAir",
+      "onAdjacent": false,
+      "flag": "useItems",
+      "range": 20
     }
   ]
 }
