@@ -1,0 +1,12 @@
+{
+  "modid": "Thaumcraft",
+  "segments": [
+    {
+      "class": "thaumcraft.common.items.wands.ItemWandCasting",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "modifyBlocks"
+    }
+  ]
+}
