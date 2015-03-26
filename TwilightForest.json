@@ -1,0 +1,12 @@
+{
+  "modid": "TwilightForest",
+  "segments": [
+    {
+      "class": "twilightforest.item.ItemTFCrumbleHorn",
+      "type": "item",
+      "itemType": "rightClickAir",
+      "onAdjacent": false,
+      "flag": "useItems"
+    }
+  ]
+}
