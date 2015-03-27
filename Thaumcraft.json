@@ -16,6 +16,12 @@
       "onAdjacent": false,
       "flag": "useItems",
       "range": 20
+    },
+    {
+      "class": "thaumcraft.common.entities.projectile.EntityPrimalOrb",
+      "type": "entity",
+      "entityType": "explosive",
+      "range": 1
     }
   ]
 }

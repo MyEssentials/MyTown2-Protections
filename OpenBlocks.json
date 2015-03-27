@@ -1,0 +1,10 @@
+{
+  "modid": "OpenBlocks",
+  "segments": [
+    {
+      "class": "openblocks.common.block.OpenBlock",
+      "type": "block",
+      "flag": "accessBlocks"
+    }
+  ]
+}

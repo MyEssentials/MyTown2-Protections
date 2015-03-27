@@ -10,6 +10,12 @@
       "class": "cofh.thermalexpansion.block.device.BlockDevice",
       "type": "block",
       "flag": "accessBlocks"
+    },
+    {
+      "class": "cofh.thermalexpansion.entity.projectile.EntityFlorb",
+      "type": "entity",
+      "entityType": "explosive",
+      "range": 1
     }
   ]
 }
