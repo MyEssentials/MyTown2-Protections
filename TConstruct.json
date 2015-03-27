@@ -2,6 +2,12 @@
   "modid": "TConstruct",
   "segments": [
     {
+      "class": "tconstruct.mechworks.entity.item.ExplosivePrimed",
+      "type": "entity",
+      "entityType": "explosive",
+      "range": 7
+    },
+    {
       "class": "tconstruct.world.blocks.OreberryBush",
       "type": "block",
       "flag": "accessBlocks"
