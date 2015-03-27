@@ -19,6 +19,12 @@
       ]
     },
     {
+      "class": "ic2.core.block.EntityDynamite",
+      "type": "entity",
+      "entityType": "explosive",
+      "range": 1
+    },
+    {
       "class": "ic2.core.item.tool.ItemElectricTool",
       "type": "item",
       "itemType": "rightClickAir",
