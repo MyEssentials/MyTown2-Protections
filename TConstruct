@@ -1,0 +1,10 @@
+{
+  "modid": "TConstruct",
+  "segments": [
+    {
+      "class": "tconstruct.world.blocks.OreberryBush",
+      "type": "block",
+      "flag": "accessBlocks"
+    }
+  ]
+}

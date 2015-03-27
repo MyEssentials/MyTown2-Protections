@@ -5,6 +5,11 @@
       "class": "cofh.thermalexpansion.block.machine.BlockMachine",
       "type": "block",
       "flag": "accessBlocks"
+    },
+    {
+      "class": "cofh.thermalexpansion.block.device.BlockDevice",
+      "type": "block",
+      "flag": "accessBlocks"
     }
   ]
 }

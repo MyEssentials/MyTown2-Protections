@@ -1,0 +1,10 @@
+{
+  "modid": "BigReactors",
+  "segments": [
+    {
+      "class": "erogenousbeef.bigreactors.common.block.BlockBRDevice",
+      "type": "block",
+      "flag": "accessBlocks"
+    }
+  ]
+}

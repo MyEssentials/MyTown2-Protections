@@ -15,6 +15,11 @@
       "class": "com.rwtema.extrautils.tileentity.transfernodes.BlockTransferPipe",
       "type": "block",
       "flag": "accessBlocks"
+    },
+    {
+      "class": "com.rwtema.extrautils.block.BlockPortal",
+      "type": "block",
+      "flag": "accessBlocks"
     }
   ]
 }

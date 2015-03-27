@@ -1,0 +1,26 @@
+{
+  "modid": "TwilightForest",
+  "segments": [
+    {
+      "class": "twilightforest.item.ItemTFCrumbleHorn",
+      "type": "item",
+      "itemType": "rightClickAir",
+      "onAdjacent": false,
+      "flag": "useItems",
+      "range": 10
+    },
+    {
+      "class": "twilightforest.item.ItemTFCrumbleHorn",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "useItems",
+      "range": 10
+    },
+    {
+      "class": "twilightforest.block.BlockTFUncraftingTable",
+      "type": "block",
+      "flag": "accessBlocks"
+    }
+  ]
+}

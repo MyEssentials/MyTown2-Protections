@@ -5,6 +5,11 @@
       "class": "crazypants.enderio.machine.AbstractMachineBlock",
       "type": "block",
       "flag": "accessBlocks"
+    },
+    {
+      "class": "crazypants.enderio.machine.capbank.BlockCapBank",
+      "type": "block",
+      "flag": "accessBlocks"
     }
   ]
 }

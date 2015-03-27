@@ -5,6 +5,11 @@
       "class": "dan200.computercraft.shared.turtle.blocks.TileTurtle",
       "type": "tileEntity",
       "flag": "modifyBlocks"
+    },
+    {
+      "class": "dan200.computercraft.shared.common.BlockGeneric",
+      "type": "block",
+      "flag": "accessBlocks"
     }
   ]
 }
