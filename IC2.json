@@ -2,6 +2,23 @@
   "modid": "IC2",
   "segments": [
     {
+      "class": "ic2.core.block.EntityIC2Explosive",
+      "type": "entity",
+      "entityType": "explosive",
+      "range": [
+        {
+          "element": "value * 1.5",
+          "type": "formula"
+        }
+      ],
+      "value": [
+        {
+          "element": "explosivePower",
+          "type": "field"
+        }
+      ]
+    },
+    {
       "class": "ic2.core.item.tool.ItemElectricTool",
       "type": "item",
       "itemType": "rightClickAir",
