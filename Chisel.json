@@ -1,0 +1,26 @@
+{
+  "modid": "chisel",
+  "segments": [
+    {
+      "class": "com.cricketcraft.chisel.entity.EntityBallOMoss",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "modifyBlocks",
+      "range": 15
+    },
+    {
+      "class": "com.cricketcraft.chisel.entity.EntityCloudInABottle",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "modifyBlocks",
+      "range": 15
+    },
+    {
+      "class": "com.cricketcraft.chisel.entity.EntitySmashingRock",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "modifyBlocks",
+      "range": 15
+    }
+  ]
+}
