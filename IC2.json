@@ -4,7 +4,8 @@
     {
       "class": "ic2.core.block.EntityIC2Explosive",
       "type": "entity",
-      "entityType": "explosive",
+      "entityType": "tracked",
+      "flag": "explosions",
       "range": [
         {
           "element": "value * 1.5",
@@ -21,7 +22,8 @@
     {
       "class": "ic2.core.block.EntityDynamite",
       "type": "entity",
-      "entityType": "explosive",
+      "entityType": "tracked",
+      "flag": "explosions",
       "range": 1
     },
     {

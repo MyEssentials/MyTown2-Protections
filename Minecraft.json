@@ -88,29 +88,34 @@
     {
       "class": "net.minecraft.entity.monster.EntityMob",
       "type": "entity",
-      "entityType": "hostile"
+      "entityType": "tracked",
+      "flag": {"name":"mobs", "denialValue":"hostiles"}
     },
     {
       "class": "net.minecraft.entity.EntityAgeable",
       "type": "entity",
-      "entityType": "passive"
+      "entityType": "protect",
+      "flag": "protectedEntities"
     },
     {
       "class": "net.minecraft.entity.monster.EntityCreeper",
       "type": "entity",
-      "entityType": "explosive",
+      "entityType": "tracked",
+      "flag": "explosions",
       "range": 5
     },
     {
       "class": "net.minecraft.entity.item.EntityTNTPrimed",
       "type": "entity",
-      "entityType": "explosive",
+      "entityType": "tracked",
+      "flag": "explosions",
       "range": 5
     },
     {
       "class": "net.minecraft.entity.item.EntityItemFrame",
       "type": "entity",
-      "entityType": "passive"
+      "entityType": "protect",
+      "flag": "protectedEntities"
     },
     {
       "class": "net.minecraft.item.ItemMonsterPlacer",

@@ -4,7 +4,8 @@
     {
       "class": "tconstruct.mechworks.entity.item.ExplosivePrimed",
       "type": "entity",
-      "entityType": "explosive",
+      "entityType": "tracked",
+      "flag": "explosions",
       "range": 7
     },
     {

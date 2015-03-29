@@ -20,7 +20,8 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityPrimalOrb",
       "type": "entity",
-      "entityType": "explosive",
+      "entityType": "tracked",
+      "flag": "explosions",
       "range": 1
     }
   ]
