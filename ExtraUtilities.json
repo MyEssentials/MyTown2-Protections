@@ -4,21 +4,29 @@
     {
       "class": "com.rwtema.extrautils.tileentity.enderconstructor.BlockEnderConstructor",
       "type": "block",
+      "blockType": "rightClick",
+      "meta": -1,
       "flag": "accessBlocks"
     },
     {
       "class": "com.rwtema.extrautils.tileentity.transfernodes.BlockTransferNode",
       "type": "block",
+      "blockType": "rightClick",
+      "meta": -1,
       "flag": "accessBlocks"
     },
     {
       "class": "com.rwtema.extrautils.tileentity.transfernodes.BlockTransferPipe",
       "type": "block",
+      "blockType": "rightClick",
+      "meta": -1,
       "flag": "accessBlocks"
     },
     {
       "class": "com.rwtema.extrautils.block.BlockPortal",
       "type": "block",
+      "blockType": "rightClick",
+      "meta": -1,
       "flag": "accessBlocks"
     }
   ]

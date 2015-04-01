@@ -20,6 +20,8 @@
     {
       "class": "twilightforest.block.BlockTFUncraftingTable",
       "type": "block",
+      "blockType": "rightClick",
+      "meta": -1,
       "flag": "accessBlocks"
     }
   ]

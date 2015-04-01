@@ -4,11 +4,15 @@
     {
       "class": "crazypants.enderio.machine.AbstractMachineBlock",
       "type": "block",
+      "blockType": "rightClick",
+      "meta": -1,
       "flag": "accessBlocks"
     },
     {
       "class": "crazypants.enderio.machine.capbank.BlockCapBank",
       "type": "block",
+      "blockType": "rightClick",
+      "meta": -1,
       "flag": "accessBlocks"
     }
   ]

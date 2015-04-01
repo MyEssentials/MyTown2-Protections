@@ -4,11 +4,15 @@
     {
       "class": "jds.bibliocraft.blocks.BlockMapFrame",
       "type": "block",
-      "flag": "activateBlocks"
+      "blockType": "rightClick",
+      "meta": -1,
+      "flag": "accessBlocks"
     },
     {
       "class": "jds.bibliocraft.blocks.BlockStuff",
       "type": "block",
+      "blockType": "rightClick",
+      "meta": -1,
       "flag": "accessBlocks"
     },
     {

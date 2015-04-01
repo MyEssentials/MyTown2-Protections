@@ -4,32 +4,37 @@
     {
       "class": "com.carpentersblocks.block.BlockCarpentersButton",
       "type": "block",
-      "flag": "activateBlocks",
-      "meta": -1
+      "blockType": "rightClick",
+      "meta": -1,
+      "flag": "activateBlocks"
     },
     {
       "class": "com.carpentersblocks.block.BlockCarpentersDoor",
       "type": "block",
-      "flag": "activateBlocks",
-      "meta": -1
+      "blockType": "rightClick",
+      "meta": -1,
+      "flag": "activateBlocks"
     },
     {
       "class": "com.carpentersblocks.block.BlockCarpentersLever",
       "type": "block",
-      "flag": "activateBlocks",
-      "meta": -1
+      "blockType": "rightClick",
+      "meta": -1,
+      "flag": "activateBlocks"
     },
     {
       "class": "com.carpentersblocks.block.BlockCarpentersGate",
       "type": "block",
-      "flag": "activateBlocks",
-      "meta": -1
+      "blockType": "rightClick",
+      "meta": -1,
+      "flag": "activateBlocks"
     },
     {
       "class": "com.carpentersblocks.block.BlockCarpentersHatch",
       "type": "block",
-      "flag": "activateBlocks",
-      "meta": -1
+      "blockType": "rightClick",
+      "meta": -1,
+      "flag": "activateBlocks"
     }
   ]
 }

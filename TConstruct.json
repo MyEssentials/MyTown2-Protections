@@ -11,6 +11,8 @@
     {
       "class": "tconstruct.world.blocks.OreberryBush",
       "type": "block",
+      "blockType": "rightClick",
+      "meta": -1,
       "flag": "accessBlocks"
     }
   ]

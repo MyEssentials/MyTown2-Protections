@@ -4,11 +4,15 @@
     {
       "class": "cofh.thermalexpansion.block.machine.BlockMachine",
       "type": "block",
+      "blockType": "rightClick",
+      "meta": -1,
       "flag": "accessBlocks"
     },
     {
       "class": "cofh.thermalexpansion.block.device.BlockDevice",
       "type": "block",
+      "blockType": "rightClick",
+      "meta": -1,
       "flag": "accessBlocks"
     },
     {

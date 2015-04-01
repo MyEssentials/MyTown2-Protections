@@ -9,6 +9,8 @@
     {
       "class": "dan200.computercraft.shared.common.BlockGeneric",
       "type": "block",
+      "blockType": "rightClick",
+      "meta": -1,
       "flag": "accessBlocks"
     }
   ]

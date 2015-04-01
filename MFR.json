@@ -4,6 +4,8 @@
     {
       "class": "powercrystals.minefactoryreloaded.block.BlockFactory",
       "type": "block",
+      "blockType": "rightClick",
+      "meta": -1,
       "flag": "accessBlocks"
     }
   ]

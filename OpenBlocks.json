@@ -4,6 +4,8 @@
     {
       "class": "openblocks.common.block.OpenBlock",
       "type": "block",
+      "blockType": "rightClick",
+      "meta": -1,
       "flag": "accessBlocks"
     }
   ]
