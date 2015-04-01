@@ -1,0 +1,12 @@
+{
+  "modid": "JABBA",
+  "segments": [
+    {
+      "class": "mcp.mobius.betterbarrels.common.blocks.BlockBarrel",
+      "type": "block",
+      "blockType": "leftClick",
+      "meta": -1,
+      "flag": "accessBlocks"
+    }
+  ]
+}
