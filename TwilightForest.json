@@ -23,6 +23,13 @@
       "blockType": "rightClick",
       "meta": -1,
       "flag": "accessBlocks"
+    },
+    {
+      "class": "twilightforest.entity.boss.EntityTFIceBomb",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "explosions",
+      "range": 1
     }
   ]
 }
