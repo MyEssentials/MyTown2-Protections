@@ -27,14 +27,14 @@
       "class": "twilightforest.entity.boss.EntityTFIceBomb",
       "type": "entity",
       "entityType": "tracked",
-      "flag": "explosions",
+      "flag": "modifyBlocks",
       "range": 5
     },
     {
       "class": "twilightforest.entity.EntityTFMoonwormShot",
       "type": "entity",
       "entityType": "tracked",
-      "flag": "explosions",
+      "flag": "modifyBlocks",
       "range": 5
     },
     {
