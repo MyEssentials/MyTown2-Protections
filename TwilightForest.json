@@ -2,7 +2,7 @@
   "modid": "TwilightForest",
   "segments": [
     {
-      "class": "twilightforest.item.ItemTFCrumbleHorn",
+      "class": "twilightforest.item.ItemTF",
       "type": "item",
       "itemType": "rightClickAir",
       "onAdjacent": false,
@@ -10,7 +10,7 @@
       "range": 10
     },
     {
-      "class": "twilightforest.item.ItemTFCrumbleHorn",
+      "class": "twilightforest.item.ItemTF",
       "type": "item",
       "itemType": "rightClickBlock",
       "onAdjacent": false,
@@ -21,7 +21,6 @@
       "class": "twilightforest.block.BlockTFUncraftingTable",
       "type": "block",
       "blockType": "rightClick",
-      "meta": -1,
       "flag": "accessBlocks"
     },
     {
@@ -29,14 +28,14 @@
       "type": "entity",
       "entityType": "tracked",
       "flag": "explosions",
-      "range": 1
+      "range": 5
     },
     {
       "class": "twilightforest.entity.EntityTFMoonwormShot",
       "type": "entity",
       "entityType": "tracked",
       "flag": "explosions",
-      "range": 1
+      "range": 5
     }
   ]
 }
