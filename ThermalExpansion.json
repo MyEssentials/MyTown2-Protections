@@ -2,17 +2,9 @@
   "modid": "ThermalExpansion",
   "segments": [
     {
-      "class": "cofh.thermalexpansion.block.machine.BlockMachine",
+      "class": "cofh.core.block.BlockCoFHBase",
       "type": "block",
       "blockType": "rightClick",
-      "meta": -1,
-      "flag": "accessBlocks"
-    },
-    {
-      "class": "cofh.thermalexpansion.block.device.BlockDevice",
-      "type": "block",
-      "blockType": "rightClick",
-      "meta": -1,
       "flag": "accessBlocks"
     },
     {
@@ -20,7 +12,7 @@
       "type": "entity",
       "entityType": "tracked",
       "flag": "explosions",
-      "range": 1
+      "range": 5
     },
     {
       "class": "cofh.thermalexpansion.item.tool.ItemWrench",
