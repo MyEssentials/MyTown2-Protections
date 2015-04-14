@@ -7,6 +7,13 @@
       "itemType": "rightClickEntity",
       "onAdjacent": false,
       "flag": "useItems"
+    },
+    {
+      "class": "com.emoniph.witchery.entity.EntityWitchProjectile",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "explosions",
+      "range": 10
     }
   ]
 }

@@ -7,6 +7,27 @@
       "blockType": "rightClick",
       "meta": -1,
       "flag": "accessBlocks"
+    },
+    {
+      "class": "powercrystals.minefactoryreloaded.entity.EntityRocket",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "explosions",
+      "range": 20
+    },
+    {
+      "class": "powercrystals.minefactoryreloaded.entity.EntityNeedle",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "explosions",
+      "range": 20
+    },
+    {
+      "class": "powercrystals.minefactoryreloaded.entity.EntitySafariNet",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "explosions",
+      "range": 20
     }
   ]
 }
