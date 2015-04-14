@@ -1,0 +1,12 @@
+{
+  "modid": "appliedenergistics2-core",
+  "segments": [
+    {
+      "class": "appeng.items.tools.quartz.ToolQuartzWrench",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "modifyBlocks"
+    }
+  ]
+}

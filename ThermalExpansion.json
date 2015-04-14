@@ -21,6 +21,20 @@
       "entityType": "tracked",
       "flag": "explosions",
       "range": 1
+    },
+    {
+      "class": "cofh.thermalexpansion.item.tool.ItemWrench",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "modifyBlocks"
+    },
+    {
+      "class": "cofh.thermalexpansion.item.tool.ItemWrenchBattle",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "modifyBlocks"
     }
   ]
 }
