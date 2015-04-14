@@ -36,6 +36,22 @@
       "entityType": "tracked",
       "flag": "explosions",
       "range": 5
+    },
+    {
+      "class": "twilightforest.entity.EntityTFTwilightWandBolt",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "explosions",
+      "range": 5
+    },
+    {
+      "class": "twilightforest.entity.EntityTFLoyalZombie",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": {
+        "name": "mobs",
+        "denialValue": "hostiles"
+      }
     }
   ]
 }
