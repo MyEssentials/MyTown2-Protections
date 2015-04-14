@@ -1,0 +1,14 @@
+{
+  "modid": "DraconicEvolution",
+  "segments": [
+    {
+      "class": "com.brandon3055.draconicevolution.common.entity.EntityCustomDragon",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": {
+        "name": "mobs",
+        "denialValue": "hostiles"
+      }
+    }
+  ]
+}
