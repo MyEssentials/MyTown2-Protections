@@ -30,6 +30,13 @@
       "entityType": "tracked",
       "flag": "explosions",
       "range": 1
+    },
+    {
+      "class": "twilightforest.entity.EntityTFMoonwormShot",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "explosions",
+      "range": 1
     }
   ]
 }
