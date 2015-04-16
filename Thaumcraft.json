@@ -18,11 +18,208 @@
       "range": 20
     },
     {
+      "class": "thaumcraft.common.entities.projectile.EntityAlumentum",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "explosions",
+      "owner": [
+        {
+          "element": "getThrower",
+          "type": "method"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "thaumcraft.common.entities.projectile.EntityBottleTaint",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "modifyBlocks",
+      "owner": [
+        {
+          "element": "getThrower",
+          "type": "method"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "thaumcraft.common.entities.projectile.EntityEldritchOrb",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "pvp",
+      "owner": [
+        {
+          "element": "getThrower",
+          "type": "method"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "thaumcraft.common.entities.projectile.EntityEmber",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "modifyBlocks",
+      "owner": [
+        {
+          "element": "getThrower",
+          "type": "method"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "thaumcraft.common.entities.projectile.EntityEmber",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "pvp",
+      "owner": [
+        {
+          "element": "getThrower",
+          "type": "method"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "thaumcraft.common.entities.projectile.EntityExplosiveOrb",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "explosions",
+      "owner": [
+        {
+          "element": "getThrower",
+          "type": "method"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "thaumcraft.common.entities.projectile.EntityFrostShard",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "pvp",
+      "owner": [
+        {
+          "element": "getThrower",
+          "type": "method"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "thaumcraft.common.entities.projectile.EntityGolemOrb",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "pvp",
+      "owner": [
+        {
+          "element": "getThrower",
+          "type": "method"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "thaumcraft.common.entities.projectile.EntityPechBlast",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "pvp",
+      "owner": [
+        {
+          "element": "getThrower",
+          "type": "method"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
+      "range": 15
+    },
+    {
       "class": "thaumcraft.common.entities.projectile.EntityPrimalOrb",
       "type": "entity",
       "entityType": "tracked",
       "flag": "explosions",
-      "range": 1
+      "owner": [
+        {
+          "element": "getThrower",
+          "type": "method"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "thaumcraft.common.entities.projectile.EntityShockOrb",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "modifyBlocks",
+      "owner": [
+        {
+          "element": "getThrower",
+          "type": "method"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "thaumcraft.common.entities.projectile.EntityShockOrb",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "pvp",
+      "owner": [
+        {
+          "element": "getThrower",
+          "type": "method"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
+      "range": 15
     }
   ]
 }
