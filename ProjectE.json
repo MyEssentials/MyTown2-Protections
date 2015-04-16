@@ -1,0 +1,40 @@
+{
+  "modid": "ProjectE",
+  "segments": [
+    {
+      "class": "moze_intel.projecte.gameObjs.entity.EntityNovaCataclysmPrimed",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "explosions",
+      "range": 7
+    },
+    {
+      "class": "moze_intel.projecte.gameObjs.entity.EntityNovaCatalystPrimed",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "explosions",
+      "range": 7
+    },
+    {
+      "class": "moze_intel.projecte.gameObjs.entity.EntityLavaProjectile",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "explosions",
+      "range": 5
+    },
+    {
+      "class": "moze_intel.projecte.gameObjs.entity.EntityWaterProjectile",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "explosions",
+      "range": 5
+    },
+    {
+      "class": "moze_intel.projecte.gameObjs.entity.EntityLensProjectile",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "explosions",
+      "range": 5
+    }
+  ]
+}
