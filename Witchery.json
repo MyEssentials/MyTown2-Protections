@@ -6,7 +6,7 @@
       "type": "item",
       "itemType": "rightClickEntity",
       "onAdjacent": false,
-      "flag": "useItems"
+      "flag": "pvp"
     },
     {
       "class": "com.emoniph.witchery.entity.EntityWitchProjectile",
