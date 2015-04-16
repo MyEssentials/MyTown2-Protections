@@ -1,0 +1,105 @@
+{
+  "modid": "arsmagica2",
+  "segments": [
+    {
+      "class": "am2.items.SpellBase",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "modifyBlocks",
+      "range": 10
+    },
+    {
+      "class": "am2.items.SpellBase",
+      "type": "item",
+      "itemType": "rightClickAir",
+      "onAdjacent": false,
+      "flag": "useItems",
+      "range": 10
+    },
+    {
+      "class": "am2.items.ItemSpellBook",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "modifyBlocks",
+      "range": 10
+    },
+    {
+      "class": "am2.items.ItemSpellBook",
+      "type": "item",
+      "itemType": "rightClickAir",
+      "onAdjacent": false,
+      "flag": "useItems",
+      "range": 10
+    },
+    {
+      "class": "am2.entities.EntitySpellEffect",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "modifyBlocks",
+      "owner": [
+        {
+          "element": "dummycaster",
+          "type": "field"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "am2.entities.EntitySpellProjectile",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "modifyBlocks",
+      "owner": [
+        {
+          "element": "getShootingEntity",
+          "type": "method"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "am2.entities.EntityThrownRock",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "modifyBlocks",
+      "owner": [
+        {
+          "element": "throwingEntity",
+          "type": "field"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "am2.entities.EntityThrownSickle",
+      "type": "entity",
+      "entityType": "tracked",
+      "flag": "pvp",
+      "owner": [
+        {
+          "element": "throwingEntity",
+          "type": "field"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
+      "range": 15
+    }
+  ]
+}
