@@ -11,7 +11,7 @@
       "class": "cofh.thermalexpansion.entity.projectile.EntityFlorb",
       "type": "entity",
       "entityType": "tracked",
-      "flag": "explosions",
+      "flag": "modifyBlocks",
       "range": 5
     },
     {

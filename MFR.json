@@ -19,7 +19,7 @@
       "class": "powercrystals.minefactoryreloaded.entity.EntityNeedle",
       "type": "entity",
       "entityType": "tracked",
-      "flag": "explosions",
+      "flag": "modifyBlocks",
       "range": 20
     },
     {

@@ -12,7 +12,7 @@
       "class": "com.emoniph.witchery.entity.EntityWitchProjectile",
       "type": "entity",
       "entityType": "tracked",
-      "flag": "explosions",
+      "flag": "modifyBlocks",
       "range": 10
     }
   ]
