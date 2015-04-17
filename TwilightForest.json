@@ -28,6 +28,16 @@
       "type": "entity",
       "entityType": "tracked",
       "flag": "modifyBlocks",
+      "owner": [
+        {
+          "element": "getThrower",
+          "type": "method"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
       "range": 5
     },
     {
@@ -35,6 +45,16 @@
       "type": "entity",
       "entityType": "tracked",
       "flag": "modifyBlocks",
+      "owner": [
+        {
+          "element": "getThrower",
+          "type": "method"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
       "range": 5
     },
     {
@@ -42,6 +62,16 @@
       "type": "entity",
       "entityType": "tracked",
       "flag": "explosions",
+      "owner": [
+        {
+          "element": "getThrower",
+          "type": "method"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
       "range": 5
     },
     {
