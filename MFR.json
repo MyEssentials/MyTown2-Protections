@@ -13,12 +13,24 @@
       "type": "entity",
       "entityType": "tracked",
       "flag": "explosions",
+      "owner": [
+        {
+          "element": "_owner",
+          "type": "field"
+        }
+      ],
       "range": 20
     },
     {
       "class": "powercrystals.minefactoryreloaded.entity.EntityNeedle",
       "type": "entity",
       "entityType": "tracked",
+      "owner": [
+        {
+          "element": "_owner",
+          "type": "field"
+        }
+      ],
       "flag": "modifyBlocks",
       "range": 20
     },
@@ -27,6 +39,16 @@
       "type": "entity",
       "entityType": "tracked",
       "flag": "explosions",
+      "owner": [
+        {
+          "element": "getThrower",
+          "type": "method"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
       "range": 20
     }
   ]

@@ -11,6 +11,16 @@
     {
       "class": "com.emoniph.witchery.entity.EntityWitchProjectile",
       "type": "entity",
+      "owner": [
+        {
+          "element": "getThrower",
+          "type": "method"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
       "entityType": "tracked",
       "flag": "modifyBlocks",
       "range": 10
