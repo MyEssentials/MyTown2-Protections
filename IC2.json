@@ -24,6 +24,16 @@
       "type": "entity",
       "entityType": "tracked",
       "flag": "explosions",
+      "owner": [
+        {
+          "element": "owner",
+          "type": "field"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
       "range": 1
     },
     {
@@ -31,7 +41,24 @@
       "type": "entity",
       "entityType": "tracked",
       "flag": "explosions",
+      "owner": [
+        {
+          "element": "owner",
+          "type": "field"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "method"
+        }
+      ],
       "range": 20
+    },
+    {
+      "class": "ic2.core.item.ItemIC2",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "modifyBlocks"
     },
     {
       "class": "ic2.core.item.tool.ItemElectricTool",
@@ -41,11 +68,11 @@
       "flag": "modifyBlocks"
     },
     {
-      "class": "ic2.core.item.tool.ItemToolWrench",
-      "type": "item",
-      "itemType": "rightClickBlock",
-      "onAdjacent": false,
-      "flag": "modifyBlocks"
+      "class": "ic2.core.block.BlockMultiID",
+      "type": "block",
+      "blockType": "rightClick",
+      "meta": -1,
+      "flag": "accessBlocks"
     }
   ]
 }
