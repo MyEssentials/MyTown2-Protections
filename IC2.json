@@ -54,6 +54,13 @@
       "range": 20
     },
     {
+      "class": "ic2.core.item.ItemIC2",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "modifyBlocks"
+    },
+    {
       "class": "ic2.core.item.tool.ItemElectricTool",
       "type": "item",
       "itemType": "rightClickBlock",
@@ -61,11 +68,11 @@
       "flag": "modifyBlocks"
     },
     {
-      "class": "ic2.core.item.tool.ItemToolWrench",
-      "type": "item",
-      "itemType": "rightClickBlock",
-      "onAdjacent": false,
-      "flag": "modifyBlocks"
+      "class": "ic2.core.block.BlockMultiID",
+      "type": "block",
+      "blockType": "rightClick",
+      "meta": -1,
+      "flag": "accessBlocks"
     }
   ]
 }
