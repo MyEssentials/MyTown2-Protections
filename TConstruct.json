@@ -8,11 +8,11 @@
       "flag": "explosions",
       "owner": [
         {
-          "element": "tntPlacedBy",
+          "element": "field_94084_b",
           "type": "field"
         },
         {
-          "element": "getCommandSenderName",
+          "element": "func_70005_c_",
           "type": "method"
         }
       ],

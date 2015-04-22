@@ -8,11 +8,11 @@
       "flag": "modifyBlocks",
       "owner": [
         {
-          "element": "getThrower",
+          "element": "func_85052_h",
           "type": "method"
         },
         {
-          "element": "getCommandSenderName",
+          "element": "func_70005_c_",
           "type": "method"
         }
       ],
@@ -25,11 +25,11 @@
       "flag": "modifyBlocks",
       "owner": [
         {
-          "element": "getThrower",
+          "element": "func_85052_h",
           "type": "method"
         },
         {
-          "element": "getCommandSenderName",
+          "element": "func_70005_c_",
           "type": "method"
         }
       ],
@@ -42,11 +42,11 @@
       "flag": "modifyBlocks",
       "owner": [
         {
-          "element": "getThrower",
+          "element": "func_85052_h",
           "type": "method"
         },
         {
-          "element": "getCommandSenderName",
+          "element": "func_70005_c_",
           "type": "method"
         }
       ],

@@ -44,7 +44,7 @@
           "type": "field"
         },
         {
-          "element": "getCommandSenderName",
+          "element": "func_70005_c_",
           "type": "method"
         }
       ],
@@ -61,7 +61,7 @@
           "type": "method"
         },
         {
-          "element": "getCommandSenderName",
+          "element": "func_70005_c_",
           "type": "method"
         }
       ],
@@ -78,7 +78,7 @@
           "type": "field"
         },
         {
-          "element": "getCommandSenderName",
+          "element": "func_70005_c_",
           "type": "method"
         }
       ],
@@ -95,7 +95,7 @@
           "type": "field"
         },
         {
-          "element": "getCommandSenderName",
+          "element": "func_70005_c_",
           "type": "method"
         }
       ],

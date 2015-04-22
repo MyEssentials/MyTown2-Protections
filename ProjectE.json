@@ -6,13 +6,13 @@
       "type": "entity",
       "entityType": "tracked",
       "flag": "explosions",
-       "owner": [
+      "owner": [
         {
-          "element": "tntPlacedBy",
+          "element": "field_94084_b",
           "type": "field"
         },
         {
-          "element": "getCommandSenderName",
+          "element": "func_70005_c_",
           "type": "method"
         }
       ],
@@ -25,11 +25,11 @@
       "flag": "explosions",
       "owner": [
         {
-          "element": "tntPlacedBy",
+          "element": "field_94084_b",
           "type": "field"
         },
         {
-          "element": "getCommandSenderName",
+          "element": "func_70005_c_",
           "type": "method"
         }
       ],
@@ -42,11 +42,11 @@
       "flag": "explosions",
       "owner": [
         {
-          "element": "getThrower",
+          "element": "func_85052_h",
           "type": "method"
         },
         {
-          "element": "getCommandSenderName",
+          "element": "func_70005_c_",
           "type": "method"
         }
       ],
@@ -59,11 +59,11 @@
       "flag": "explosions",
       "owner": [
         {
-          "element": "getThrower",
+          "element": "func_85052_h",
           "type": "method"
         },
         {
-          "element": "getCommandSenderName",
+          "element": "func_70005_c_",
           "type": "method"
         }
       ],
@@ -76,11 +76,11 @@
       "flag": "explosions",
       "owner": [
         {
-          "element": "getThrower",
+          "element": "func_85052_h",
           "type": "method"
         },
         {
-          "element": "getCommandSenderName",
+          "element": "func_70005_c_",
           "type": "method"
         }
       ],

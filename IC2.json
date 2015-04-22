@@ -6,6 +6,16 @@
       "type": "entity",
       "entityType": "tracked",
       "flag": "explosions",
+      "owner": [
+        {
+          "element": "igniter",
+          "type": "field"
+        },
+        {
+          "element": "func_70005_c_",
+          "type": "method"
+        }
+      ],
       "range": [
         {
           "element": "value * 1.5",
@@ -30,7 +40,7 @@
           "type": "field"
         },
         {
-          "element": "getCommandSenderName",
+          "element": "func_70005_c_",
           "type": "method"
         }
       ],
@@ -47,7 +57,7 @@
           "type": "field"
         },
         {
-          "element": "getCommandSenderName",
+          "element": "func_70005_c_",
           "type": "method"
         }
       ],
