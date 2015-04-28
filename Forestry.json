@@ -1,0 +1,12 @@
+{
+  "modid": "Forestry",
+  "segments": [
+    {
+      "class": "forestry.core.items.ItemWrench",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "modifyBlocks"
+    }
+  ]
+}

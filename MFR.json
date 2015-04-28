@@ -50,6 +50,13 @@
         }
       ],
       "range": 20
+    },
+    {
+      "class": "powercrystals.minefactoryreloaded.item.tool.ItemFactoryHammer",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "modifyBlocks"
     }
   ]
 }
