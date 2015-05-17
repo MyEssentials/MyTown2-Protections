@@ -8,8 +8,15 @@
       "onAdjacent": false,
       "flag": "modifyBlocks"
     },
-	{
+    {
       "class": "appeng.items.tools.ToolNetworkTool",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "modifyBlocks"
+    },
+    {
+      "class": "appeng.items.parts.ItemMultiPart",
       "type": "item",
       "itemType": "rightClickBlock",
       "onAdjacent": false,
