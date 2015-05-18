@@ -21,6 +21,21 @@
       "itemType": "rightClickBlock",
       "onAdjacent": false,
       "flag": "modifyBlocks"
+    },
+    {
+      "class": "appeng.items.tools.powered.ToolMassCannon",
+      "type": "item",
+      "itemType": "rightClickAir",
+      "onAdjacent": false,
+      "flag": "modifyBlocks",
+      "range": 32
+    },
+    {
+      "class": "appeng.items.tools.powered.ToolEntropyManipulator",
+      "type": "item",
+      "itemType": "rightClickBlock",
+      "onAdjacent": false,
+      "flag": "modifyBlocks"
     }
   ]
 }
