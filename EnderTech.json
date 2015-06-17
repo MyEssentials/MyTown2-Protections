@@ -6,7 +6,7 @@
       "type": "item",
       "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": false,
-      "flag": "USAGE"
+      "flag": "USAGE",
       "range": 10
     }
   ]
