@@ -5,7 +5,7 @@
       "class": "com.cricketcraft.chisel.entity.EntityBallOMoss",
       "type": "entity",
       "entityType": "TRACKED",
-      "flag": "MODIFY"
+      "flag": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",
@@ -22,7 +22,7 @@
       "class": "com.cricketcraft.chisel.entity.EntityCloudInABottle",
       "type": "entity",
       "entityType": "TRACKED",
-      "flag": "MODIFY"
+      "flag": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",
@@ -39,7 +39,7 @@
       "class": "com.cricketcraft.chisel.entity.EntitySmashingRock",
       "type": "entity",
       "entityType": "TRACKED",
-      "flag": "MODIFY"
+      "flag": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",
