@@ -4,7 +4,7 @@
     {
       "class": "buildcraft.builders.TileConstructionMarker",
       "type": "tileEntity",
-      "flag": "MODIFY"
+      "flag": "MODIFY",
       "zMin": [
         {
           "element": "getBox",
@@ -49,7 +49,7 @@
     {
       "class": "buildcraft.core.builders.TileAbstractBuilder",
       "type": "tileEntity",
-      "flag": "MODIFY"
+      "flag": "MODIFY",
       "zMin": [
         {
           "element": "getBox",
