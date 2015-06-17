@@ -6,7 +6,7 @@
       "type": "item",
       "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": false,
-      "flag": "MODIFY"
+      "flag": "MODIFY",
       "range": 10
     },
     {
@@ -22,7 +22,7 @@
       "type": "item",
       "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": false,
-      "flag": "MODIFY"
+      "flag": "MODIFY",
       "range": 10
     },
     {
@@ -37,7 +37,7 @@
       "class": "am2.entities.EntitySpellEffect",
       "type": "entity",
       "entityType": "TRACKED",
-      "flag": "MODIFY"
+      "flag": "MODIFY",
       "owner": [
         {
           "element": "dummycaster",
@@ -54,7 +54,7 @@
       "class": "am2.entities.EntitySpellProjectile",
       "type": "entity",
       "entityType": "TRACKED",
-      "flag": "MODIFY"
+      "flag": "MODIFY",
       "owner": [
         {
           "element": "getShootingEntity",
@@ -71,7 +71,7 @@
       "class": "am2.entities.EntityThrownRock",
       "type": "entity",
       "entityType": "TRACKED",
-      "flag": "MODIFY"
+      "flag": "MODIFY",
       "owner": [
         {
           "element": "throwingEntity",
