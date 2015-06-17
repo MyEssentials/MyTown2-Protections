@@ -12,7 +12,7 @@
       "class": "com.emoniph.witchery.entity.EntityWitchProjectile",
       "type": "entity",
       "entityType": "TRACKED",
-      "flag": "MODIFY"
+      "flag": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",
