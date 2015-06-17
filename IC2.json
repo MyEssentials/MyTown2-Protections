@@ -19,7 +19,7 @@
       "range": [
         {
           "element": "value * 1.5",
-          "type": "formula"
+          "type": "FORMULA"
         }
       ],
       "value": [
