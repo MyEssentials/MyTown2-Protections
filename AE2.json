@@ -27,7 +27,7 @@
       "type": "item",
       "itemType": "RIGHT_CLICK_AIR",
       "onAdjacent": false,
-      "flag": "MODIFY"
+      "flag": "MODIFY",
       "range": 32
     },
     {
