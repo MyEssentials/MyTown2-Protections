@@ -4,25 +4,25 @@
     {
       "class": "com.emoniph.witchery.item.ItemTaglockKit",
       "type": "item",
-      "itemType": "rightClickEntity",
+      "itemType": "RIGHT_CLICK_ENTITY",
       "onAdjacent": false,
-      "flag": "pvp"
+      "flag": "PVP"
     },
     {
       "class": "com.emoniph.witchery.entity.EntityWitchProjectile",
       "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "MODIFY"
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
-      "entityType": "tracked",
-      "flag": "modifyBlocks",
       "range": 10
     }
   ]

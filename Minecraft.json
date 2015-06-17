@@ -4,139 +4,136 @@
     {
       "class": "net.minecraft.block.BlockButton",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "activateBlocks"
+      "flag": "ACTIVATE"
     },
     {
       "class": "net.minecraft.block.BlockDoor",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "activateBlocks"
+      "flag": "ACTIVATE"
     },
     {
       "class": "net.minecraft.block.BlockLever",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "activateBlocks"
+      "flag": "ACTIVATE"
     },
     {
       "class": "net.minecraft.block.BlockFenceGate",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "activateBlocks"
+      "flag": "ACTIVATE"
     },
     {
       "class": "net.minecraft.block.BlockDragonEgg",
       "type": "block",
-      "blockType": "anyClick",
+      "blockType": "ANY_CLICK",
       "meta": -1,
-      "flag": "activateBlocks"
+      "flag": "ACTIVATE"
     },
     {
       "class": "net.minecraft.block.BlockCake",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "activateBlocks"
+      "flag": "ACTIVATE"
     },
     {
       "class": "net.minecraft.block.BlockTrapDoor",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "activateBlocks"
+      "flag": "ACTIVATE"
     },
     {
       "class": "net.minecraft.block.BlockJukebox",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "activateBlocks"
+      "flag": "ACTIVATE"
     },
     {
       "class": "net.minecraft.block.BlockRedstoneRepeater",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "activateBlocks"
+      "flag": "ACTIVATE"
     },
     {
       "class": "net.minecraft.block.BlockRedstoneComparator",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "activateBlocks"
+      "flag": "ACTIVATE"
     },
     {
       "class": "net.minecraft.block.BlockAnvil",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "accessBlocks"
+      "flag": "ACCESS"
     },
     {
       "class": "net.minecraft.block.BlockCauldron",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "accessBlocks"
+      "flag": "ACCESS"
     },
     {
       "class": "net.minecraft.block.BlockContainer",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "accessBlocks"
+      "flag": "ACCESS"
     },
     {
       "class": "net.minecraft.block.BlockBed",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "accessBlocks"
+      "flag": "ACCESS"
     },
     {
       "class": "net.minecraft.entity.monster.EntityMob",
       "type": "entity",
-      "entityType": "tracked",
+      "entityType": "TRACKED",
       "flag": {
-        "name": "mobs",
-        "denialValue": "hostiles"
+        "name": "MOBS",
+        "denialValue": "passives"
       }
     },
     {
       "class": "net.minecraft.entity.EntityAgeable",
       "type": "entity",
-      "entityType": "protect",
-      "flag": {
-        "name": "protectedEntities",
-        "denialValue": true
-      }
+      "entityType": "PROTECT",
+      "flag": "PVE"
     },
     {
       "class": "net.minecraft.entity.monster.EntityCreeper",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "explosions",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
       "range": 5
     },
     {
       "class": "net.minecraft.entity.item.EntityTNTPrimed",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "explosions",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
       "owner": [
         {
           "element": "field_94084_b",
-          "type": "field"
+          "type": "FIELD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 5
@@ -144,39 +141,36 @@
     {
       "class": "net.minecraft.entity.item.EntityItemFrame",
       "type": "entity",
-      "entityType": "protect",
-      "flag": {
-        "name": "protectedEntities",
-        "denialValue": true
-      }
+      "entityType": "PROTECT",
+      "flag": "PVE"
     },
     {
       "class": "net.minecraft.item.ItemMonsterPlacer",
       "type": "item",
-      "itemType": "rightClickBlock",
+      "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": true,
-      "flag": "useItems"
+      "flag": "USAGE"
     },
     {
       "class": "net.minecraft.item.ItemMonsterPlacer",
       "type": "item",
-      "itemType": "rightClickEntity",
+      "itemType": "RIGHT_CLICK_ENTITY",
       "onAdjacent": false,
-      "flag": "useItems"
+      "flag": "USAGE"
     },
     {
       "class": "net.minecraft.item.ItemShears",
       "type": "item",
-      "itemType": "rightClickEntity",
+      "itemType": "RIGHT_CLICK_ENTITY",
       "onAdjacent": false,
-      "flag": "useItems"
+      "flag": "USAGE"
     },
     {
       "class": "net.minecraft.item.ItemHangingEntity",
       "type": "item",
-      "itemType": "rightClickBlock",
+      "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": true,
-      "flag": "useItems"
+      "flag": "USAGE"
     }
   ]
 }

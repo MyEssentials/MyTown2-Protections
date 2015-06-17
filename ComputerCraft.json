@@ -4,14 +4,14 @@
     {
       "class": "dan200.computercraft.shared.turtle.blocks.TileTurtle",
       "type": "tileEntity",
-      "flag": "modifyBlocks"
+      "flag": "MODIFY"
     },
     {
       "class": "dan200.computercraft.shared.common.BlockGeneric",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "accessBlocks"
+      "flag": "ACCESS"
     }
   ]
 }

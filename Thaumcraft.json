@@ -4,32 +4,32 @@
     {
       "class": "thaumcraft.common.items.wands.ItemWandCasting",
       "type": "item",
-      "itemType": "rightClickBlock",
+      "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": false,
-      "flag": "modifyBlocks",
+      "flag": "MODIFY"
       "range": 30
     },
     {
       "class": "thaumcraft.common.items.wands.ItemWandCasting",
       "type": "item",
-      "itemType": "rightClickAir",
+      "itemType": "RIGHT_CLICK_AIR",
       "onAdjacent": false,
-      "flag": "useItems",
+      "flag": "USAGE",
       "range": 20
     },
     {
       "class": "thaumcraft.common.entities.projectile.EntityAlumentum",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "explosions",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 15
@@ -37,16 +37,16 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityBottleTaint",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "modifyBlocks",
+      "entityType": "TRACKED",
+      "flag": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 15
@@ -54,16 +54,16 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityEldritchOrb",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "pvp",
+      "entityType": "TRACKED",
+      "flag": "PVP",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 15
@@ -71,16 +71,16 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityEmber",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "modifyBlocks",
+      "entityType": "TRACKED",
+      "flag": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 15
@@ -88,16 +88,16 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityEmber",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "pvp",
+      "entityType": "TRACKED",
+      "flag": "PVP",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 15
@@ -105,16 +105,16 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityExplosiveOrb",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "explosions",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 15
@@ -122,16 +122,16 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityFrostShard",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "pvp",
+      "entityType": "TRACKED",
+      "flag": "PVP",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 15
@@ -139,16 +139,16 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityGolemOrb",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "pvp",
+      "entityType": "TRACKED",
+      "flag": "PVP",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 15
@@ -156,16 +156,16 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityPechBlast",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "pvp",
+      "entityType": "TRACKED",
+      "flag": "PVP",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 15
@@ -173,16 +173,16 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityPrimalOrb",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "explosions",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 15
@@ -190,16 +190,16 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityShockOrb",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "modifyBlocks",
+      "entityType": "TRACKED",
+      "flag": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 15
@@ -207,16 +207,16 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityShockOrb",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "pvp",
+      "entityType": "TRACKED",
+      "flag": "PVP",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 15

@@ -4,23 +4,23 @@
     {
       "class": "WayofTime.alchemicalWizardry.common.items.sigil.LavaSigil",
       "type": "item",
-      "itemType": "rightClickBlock",
+      "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": false,
-      "flag": "modifyBlocks"
+      "flag": "MODIFY"
     },
     {
       "class": "WayofTime.alchemicalWizardry.common.items.sigil.WaterSigil",
       "type": "item",
-      "itemType": "rightClickBlock",
+      "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": false,
-      "flag": "modifyBlocks"
+      "flag": "MODIFY"
     },
     {
       "class": "WayofTime.alchemicalWizardry.common.items.sigil.ItemBloodLightSigil",
       "type": "item",
-      "itemType": "rightClickBlock",
+      "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": false,
-      "flag": "modifyBlocks"
+      "flag": "MODIFY"
     }
   ]
 }

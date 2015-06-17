@@ -4,19 +4,19 @@
     {
       "class": "powercrystals.minefactoryreloaded.block.BlockFactory",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "accessBlocks"
+      "flag": "ACCESS"
     },
     {
       "class": "powercrystals.minefactoryreloaded.entity.EntityRocket",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "explosions",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
       "owner": [
         {
           "element": "_owner",
-          "type": "field"
+          "type": "FIELD"
         }
       ],
       "range": 20
@@ -24,29 +24,29 @@
     {
       "class": "powercrystals.minefactoryreloaded.entity.EntityNeedle",
       "type": "entity",
-      "entityType": "tracked",
+      "entityType": "TRACKED",
+      "flag": "MODIFY",
       "owner": [
         {
           "element": "_owner",
-          "type": "field"
+          "type": "FIELD"
         }
       ],
-      "flag": "modifyBlocks",
       "range": 20
     },
     {
       "class": "powercrystals.minefactoryreloaded.entity.EntitySafariNet",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "explosions",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 20
@@ -54,9 +54,9 @@
     {
       "class": "powercrystals.minefactoryreloaded.item.tool.ItemFactoryHammer",
       "type": "item",
-      "itemType": "rightClickBlock",
+      "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": false,
-      "flag": "modifyBlocks"
+      "flag": "MODIFY"
     }
   ]
 }
