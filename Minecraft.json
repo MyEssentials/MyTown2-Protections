@@ -119,6 +119,13 @@
       "type": "entity",
       "entityType": "TRACKED",
       "flag": "EXPLOSIONS",
+      "condition": "fuse > 20",
+      "fuse": [
+        {
+          "element": "field_70833_d",
+          "type": "FIELD"
+        }
+      ],
       "range": 5
     },
     {
