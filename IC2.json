@@ -64,6 +64,14 @@
       "range": 20
     },
     {
+      "class": "ic2.core.item.tool.ItemToolMiningLaser",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_AIR",
+      "onAdjacent": false,
+      "flag": "EXPLOSIONS",
+      "range": 20
+    },
+    {
       "class": "ic2.core.item.ItemIC2",
       "type": "item",
       "itemType": "RIGHT_CLICK_BLOCK",
