@@ -2,6 +2,13 @@
   "modid": "chisel",
   "segments": [
     {
+      "class": "com.cricketcraft.chisel.item.chisel.ItemChisel",
+      "type": "item",
+      "itemType": "LEFT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "MODIFY"
+    },
+    {
       "class": "com.cricketcraft.chisel.entity.EntityBallOMoss",
       "type": "entity",
       "entityType": "TRACKED",
