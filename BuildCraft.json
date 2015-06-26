@@ -4,99 +4,99 @@
     {
       "class": "buildcraft.builders.TileConstructionMarker",
       "type": "tileEntity",
-      "flag": "modifyBlocks",
+      "flag": "MODIFY",
       "zMin": [
         {
           "element": "getBox",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "zMin",
-          "type": "field"
+          "type": "FIELD"
         }
       ],
       "zMax": [
         {
           "element": "getBox",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "zMax",
-          "type": "field"
+          "type": "FIELD"
         }
       ],
       "xMin": [
         {
           "element": "getBox",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "xMin",
-          "type": "field"
+          "type": "FIELD"
         }
       ],
       "xMax": [
         {
           "element": "getBox",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "xMax",
-          "type": "field"
+          "type": "FIELD"
         }
       ]
     },
     {
       "class": "buildcraft.core.builders.TileAbstractBuilder",
       "type": "tileEntity",
-      "flag": "modifyBlocks",
+      "flag": "MODIFY",
       "zMin": [
         {
           "element": "getBox",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "zMin",
-          "type": "field"
+          "type": "FIELD"
         }
       ],
       "zMax": [
         {
           "element": "getBox",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "zMax",
-          "type": "field"
+          "type": "FIELD"
         }
       ],
       "xMin": [
         {
           "element": "getBox",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "xMin",
-          "type": "field"
+          "type": "FIELD"
         }
       ],
       "xMax": [
         {
           "element": "getBox",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "xMax",
-          "type": "field"
+          "type": "FIELD"
         }
       ]
     },
     {
       "class": "buildcraft.core.ItemWrench",
       "type": "item",
-      "itemType": "rightClickBlock",
+      "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": false,
-      "flag": "modifyBlocks"
+      "flag": "MODIFY"
     }
   ]
 }

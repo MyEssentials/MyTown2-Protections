@@ -4,44 +4,44 @@
     {
       "class": "ic2.core.block.EntityIC2Explosive",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "explosions",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
       "owner": [
         {
           "element": "igniter",
-          "type": "field"
+          "type": "FIELD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": [
         {
           "element": "value * 1.5",
-          "type": "formula"
+          "type": "FORMULA"
         }
       ],
       "value": [
         {
           "element": "explosivePower",
-          "type": "field"
+          "type": "FIELD"
         }
       ]
     },
     {
       "class": "ic2.core.block.EntityDynamite",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "explosions",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
       "owner": [
         {
           "element": "owner",
-          "type": "field"
+          "type": "FIELD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 1
@@ -49,40 +49,48 @@
     {
       "class": "ic2.core.item.tool.EntityMiningLaser",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "explosions",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
       "owner": [
         {
           "element": "owner",
-          "type": "field"
+          "type": "FIELD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 20
     },
     {
+      "class": "ic2.core.item.tool.ItemToolMiningLaser",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_AIR",
+      "onAdjacent": false,
+      "flag": "EXPLOSIONS",
+      "range": 20
+    },
+    {
       "class": "ic2.core.item.ItemIC2",
       "type": "item",
-      "itemType": "rightClickBlock",
+      "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": false,
-      "flag": "modifyBlocks"
+      "flag": "MODIFY"
     },
     {
       "class": "ic2.core.item.tool.ItemElectricTool",
       "type": "item",
-      "itemType": "rightClickBlock",
+      "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": false,
-      "flag": "modifyBlocks"
+      "flag": "MODIFY"
     },
     {
       "class": "ic2.core.block.BlockMultiID",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "accessBlocks"
+      "flag": "ACCESS"
     }
   ]
 }

@@ -4,9 +4,9 @@
     {
       "class": "com.pixelmonmod.pixelmon.blocks.apricornTrees.BlockApricornTree",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "accessBlocks"
+      "flag": "ACCESS"
     }
   ]
 }

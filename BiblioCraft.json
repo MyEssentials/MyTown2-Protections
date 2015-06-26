@@ -4,23 +4,23 @@
     {
       "class": "jds.bibliocraft.blocks.BlockMapFrame",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "accessBlocks"
+      "flag": "ACCESS"
     },
     {
       "class": "jds.bibliocraft.blocks.BlockStuff",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "accessBlocks"
+      "flag": "ACCESS"
     },
     {
       "class": "jds.bibliocraft.items.ItemDrill",
       "type": "item",
-      "itemType": "rightClickBlock",
+      "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": false,
-      "flag": "modifyBlocks"
+      "flag": "MODIFY"
     }
   ]
 }

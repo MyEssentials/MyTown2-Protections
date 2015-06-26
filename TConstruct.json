@@ -4,16 +4,16 @@
     {
       "class": "tconstruct.mechworks.entity.item.ExplosivePrimed",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "explosions",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
       "owner": [
         {
           "element": "field_94084_b",
-          "type": "field"
+          "type": "FIELD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 7
@@ -21,9 +21,9 @@
     {
       "class": "tconstruct.world.blocks.OreberryBush",
       "type": "block",
-      "blockType": "rightClick",
+      "blockType": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "accessBlocks"
+      "flag": "ACCESS"
     }
   ]
 }

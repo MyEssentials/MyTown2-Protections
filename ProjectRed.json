@@ -4,9 +4,9 @@
     {
       "class": "mrtjp.projectred.core.ItemScrewdriver",
       "type": "item",
-      "itemType": "rightClickBlock",
+      "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": false,
-      "flag": "modifyBlocks"
+      "flag": "MODIFY"
     }
   ]
 }

@@ -2,18 +2,25 @@
   "modid": "chisel",
   "segments": [
     {
+      "class": "com.cricketcraft.chisel.item.chisel.ItemChisel",
+      "type": "item",
+      "itemType": "LEFT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "MODIFY"
+    },
+    {
       "class": "com.cricketcraft.chisel.entity.EntityBallOMoss",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "modifyBlocks",
+      "entityType": "TRACKED",
+      "flag": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 15
@@ -21,16 +28,16 @@
     {
       "class": "com.cricketcraft.chisel.entity.EntityCloudInABottle",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "modifyBlocks",
+      "entityType": "TRACKED",
+      "flag": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 15
@@ -38,16 +45,16 @@
     {
       "class": "com.cricketcraft.chisel.entity.EntitySmashingRock",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "modifyBlocks",
+      "entityType": "TRACKED",
+      "flag": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 15

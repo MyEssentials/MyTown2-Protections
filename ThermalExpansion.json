@@ -4,22 +4,23 @@
     {
       "class": "cofh.core.block.BlockCoFHBase",
       "type": "block",
-      "blockType": "rightClick",
-      "flag": "accessBlocks"
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACCESS"
     },
     {
       "class": "cofh.thermalexpansion.entity.projectile.EntityFlorb",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "modifyBlocks",
+      "entityType": "TRACKED",
+      "flag": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 5
@@ -27,16 +28,16 @@
     {
       "class": "cofh.thermalexpansion.item.tool.ItemWrench",
       "type": "item",
-      "itemType": "rightClickBlock",
+      "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": false,
-      "flag": "modifyBlocks"
+      "flag": "MODIFY"
     },
     {
       "class": "cofh.thermalexpansion.item.tool.ItemWrenchBattle",
       "type": "item",
-      "itemType": "rightClickBlock",
+      "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": false,
-      "flag": "modifyBlocks"
+      "flag": "MODIFY"
     }
   ]
 }

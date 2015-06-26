@@ -4,16 +4,16 @@
     {
       "class": "cofh.redstonearsenal.item.tool.ItemWrenchRF",
       "type": "item",
-      "itemType": "rightClickBlock",
+      "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": false,
-      "flag": "modifyBlocks"
+      "flag": "MODIFY"
     },
     {
       "class": "cofh.redstonearsenal.item.tool.ItemWrenchBattleRF",
       "type": "item",
-      "itemType": "rightClickBlock",
+      "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": false,
-      "flag": "modifyBlocks"
+      "flag": "MODIFY"
     }
   ]
 }

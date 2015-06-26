@@ -4,16 +4,16 @@
     {
       "class": "moze_intel.projecte.gameObjs.entity.EntityNovaCataclysmPrimed",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "explosions",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
       "owner": [
         {
           "element": "field_94084_b",
-          "type": "field"
+          "type": "FIELD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
      "range": 48
@@ -21,16 +21,16 @@
     {
       "class": "moze_intel.projecte.gameObjs.entity.EntityNovaCatalystPrimed",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "explosions",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
       "owner": [
         {
           "element": "field_94084_b",
-          "type": "field"
+          "type": "FIELD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 16
@@ -38,16 +38,16 @@
     {
       "class": "moze_intel.projecte.gameObjs.entity.EntityLavaProjectile",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "explosions",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 7
@@ -55,16 +55,16 @@
     {
       "class": "moze_intel.projecte.gameObjs.entity.EntityWaterProjectile",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "explosions",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 7
@@ -72,16 +72,16 @@
     {
       "class": "moze_intel.projecte.gameObjs.entity.EntityLensProjectile",
       "type": "entity",
-      "entityType": "tracked",
-      "flag": "explosions",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "method"
+          "type": "METHOD"
         },
         {
           "element": "func_70005_c_",
-          "type": "method"
+          "type": "METHOD"
         }
       ],
       "range": 16

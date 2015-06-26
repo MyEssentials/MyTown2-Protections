@@ -4,16 +4,16 @@
     {
       "class": "mcp.mobius.betterbarrels.common.blocks.BlockBarrel",
       "type": "block",
-      "blockType": "leftClick",
+      "blockType": "LEFT_CLICK",
       "meta": -1,
-      "flag": "accessBlocks"
+      "flag": "ACCESS"
     },
     {
       "class": "mcp.mobius.betterbarrels.common.items.dolly.ItemBarrelMover",
       "type": "item",
-      "itemType": "rightClickBlock",
+      "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": false,
-      "flag": "modifyBlocks"
+      "flag": "MODIFY"
     }
   ]
 }
