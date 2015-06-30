@@ -1,0 +1,26 @@
+{
+  "modid": "gregtech",
+  "segments": [
+    {
+      "class": "gregtech.common.tools.GT_Tool",
+      "type": "item",
+      "itemType": "LEFT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "MODIFY"
+    },
+    {
+      "class": "gregtech.common.tools.GT_Tool",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "MODIFY"
+    },
+    {
+      "class": "gregtech.common.blocks.GT_Block_Machines",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "MODIFY"
+    }
+  ]
+}
