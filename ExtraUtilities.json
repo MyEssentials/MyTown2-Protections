@@ -9,6 +9,20 @@
       "flag": "ACCESS"
     },
     {
+      "class": "com.rwtema.extrautils.tileentity.generators.BlockGenerator",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACCESS"
+    },
+    {
+      "class": "com.rwtema.extrautils.block.BlockFilingCabinet",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACCESS"
+    },
+    {
       "class": "com.rwtema.extrautils.tileentity.transfernodes.BlockTransferNode",
       "type": "block",
       "blockType": "RIGHT_CLICK",
