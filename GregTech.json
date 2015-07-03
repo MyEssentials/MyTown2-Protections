@@ -17,10 +17,10 @@
     },
     {
       "class": "gregtech.common.blocks.GT_Block_Machines",
-      "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY"
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACCESS"
     }
   ]
 }
