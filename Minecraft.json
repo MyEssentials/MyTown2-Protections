@@ -129,11 +129,11 @@
       "type": "entity",
       "entityType": "TRACKED",
       "flag": "EXPLOSIONS",
-      "condition": "fuse > 20",
+      "condition": "fuse == 1",
       "fuse": [
         {
-          "element": "field_70833_d",
-          "type": "FIELD"
+          "element": "func_70832_p",
+          "type": "METHOD"
         }
       ],
       "range": 5
@@ -188,6 +188,12 @@
       "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": true,
       "flag": "USAGE"
+    },
+    {
+      "class": "net.minecraft.entity.item.EntityMinecart",
+      "type": "entity",
+      "entityType": "PROTECT",
+      "flag": "ACCESS"
     }
   ]
 }
