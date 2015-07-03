@@ -1,0 +1,11 @@
+{
+  "modid": "StevesCarts",
+  "segments": [
+    {
+      "class": "vswe.stevescarts.Carts.MinecartModular",
+      "type": "entity",
+      "entityType": "PROTECT",
+      "flag": "ACCESS"
+    }
+  ]
+}
