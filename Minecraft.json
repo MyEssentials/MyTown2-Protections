@@ -189,6 +189,20 @@
       "onAdjacent": false,
       "flag": "USAGE"
     },
+      {
+      "class": "net.minecraft.item.ItemDye",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_ENTITY",
+      "onAdjacent": false,
+      "flag": "USAGE"
+    },
+    {
+      "class": "net.minecraft.item.ItemDye",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "USAGE"
+    },
     {
       "class": "net.minecraft.item.ItemHangingEntity",
       "type": "item",
