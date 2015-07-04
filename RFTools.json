@@ -1,0 +1,11 @@
+{
+  "modid": "rftools",
+  "segments": [
+    {
+      "class": "mcjty.container.GenericContainerBlock",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "flag": "ACCESS"
+    }
+  ]
+}
