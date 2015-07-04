@@ -16,6 +16,13 @@
       "flag": "ACCESS"
     },
     {
+      "class": "crazypants.enderio.conduit.BlockConduitBundle",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "onAdjacent": false,
+      "flag": "ACCESS"
+    },
+    {
       "class": "crazypants.enderio.item.ItemYetaWrench",
       "type": "item",
       "itemType": "RIGHT_CLICK_BLOCK",
