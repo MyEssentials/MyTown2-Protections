@@ -50,7 +50,7 @@
           "type": "METHOD"
         }
       ],
-      "range": 4
+      "range": 15
     },
     {
       "class": "mods.railcraft.common.items.ItemCrowbar",

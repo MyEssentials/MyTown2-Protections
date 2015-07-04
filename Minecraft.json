@@ -156,6 +156,13 @@
       "range": 5
     },
     {
+      "class": "net.minecraft.entity.item.EntityMinecartTNT",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
+      "range": 15
+    },
+    {
       "class": "net.minecraft.entity.item.EntityItemFrame",
       "type": "entity",
       "entityType": "PROTECT",
