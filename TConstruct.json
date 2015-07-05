@@ -24,6 +24,15 @@
       "blockType": "RIGHT_CLICK",
       "meta": -1,
       "flag": "ACCESS"
+    },
+    {
+      "class": "tconstruct.world.entity.BlueSlime",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": {
+        "name": "MOBS",
+        "denialValue": "passives"
+      }
     }
   ]
 }
