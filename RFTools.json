@@ -6,6 +6,13 @@
       "type": "block",
       "blockType": "RIGHT_CLICK",
       "flag": "ACCESS"
+    },
+    {
+      "class": "mcjty.rftools.items.smartwrench.SmartWrenchItem",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "MODIFY"
     }
   ]
 }
