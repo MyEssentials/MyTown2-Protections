@@ -21,6 +21,54 @@
       "itemType": "RIGHT_CLICK_BLOCK",
       "onAdjacent": false,
       "flag": "MODIFY"
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.items.BoundPickaxe",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "MODIFY",
+      "range": 16
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.items.BoundPickaxe",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_AIR",
+      "onAdjacent": false,
+      "flag": "MODIFY",
+      "range": 16
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.items.BoundShovel",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "MODIFY",
+      "range": 16
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.items.BoundShovel",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_AIR",
+      "onAdjacent": false,
+      "flag": "MODIFY",
+      "range": 16
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.items.BoundAxe",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "MODIFY",
+      "range": 16
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.items.BoundAxe",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_AIR",
+      "onAdjacent": false,
+      "flag": "MODIFY",
+      "range": 16
     }
   ]
 }
