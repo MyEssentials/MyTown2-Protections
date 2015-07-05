@@ -87,118 +87,18 @@
       "range": 16
     },
     {
-      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.ExplosionProjectile",
-      "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
-      "owner": [
-        {
-          "element": "_owner",
-          "type": "FIELD"
-        }
-      ],
-      "range": 20
-    },
-    {
-      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.EnergyBlastProjectile",
-      "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
-      "owner": [
-        {
-          "element": "_owner",
-          "type": "FIELD"
-        }
-      ],
-      "range": 20
-    },
-    {
-      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.EntityEnergyBazookaMainProjectile",
-      "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
-      "owner": [
-        {
-          "element": "_owner",
-          "type": "FIELD"
-        }
-      ],
-      "range": 20
-    },
-    {
       "class": "WayofTime.alchemicalWizardry.common.entity.projectile.EntityEnergyBazookaSecondaryProjectile",
       "type": "entity",
       "entityType": "TRACKED",
       "flag": "EXPLOSIONS",
       "owner": [
         {
-          "element": "_owner",
+          "element": "shootingEntity",
           "type": "FIELD"
-        }
-      ],
-      "range": 20
-    },
-    {
-      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.FireProjectile",
-      "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
-      "owner": [
+        },
         {
-          "element": "_owner",
-          "type": "FIELD"
-        }
-      ],
-      "range": 20
-    },
-    {
-      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.HolyProjectile",
-      "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
-      "owner": [
-        {
-          "element": "_owner",
-          "type": "FIELD"
-        }
-      ],
-      "range": 20
-    },
-    {
-      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.IceProjectile",
-      "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
-      "owner": [
-        {
-          "element": "_owner",
-          "type": "FIELD"
-        }
-      ],
-      "range": 20
-    },
-    {
-      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.LightningBoltProjectile",
-      "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
-      "owner": [
-        {
-          "element": "_owner",
-          "type": "FIELD"
-        }
-      ],
-      "range": 20
-    },
-    {
-      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.WaterProjectile",
-      "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "MODIFY",
-      "owner": [
-        {
-          "element": "_owner",
-          "type": "FIELD"
+          "element": "func_70005_c_",
+          "type": "METHOD"
         }
       ],
       "range": 20
@@ -210,8 +110,12 @@
       "flag": "MODIFY",
       "owner": [
         {
-          "element": "_owner",
+          "element": "shootingEntity",
           "type": "FIELD"
+        },
+        {
+          "element": "func_70005_c_",
+          "type": "METHOD"
         }
       ],
       "range": 20
@@ -223,11 +127,33 @@
       "flag": "MODIFY",
       "owner": [
         {
-          "element": "_owner",
+          "element": "shootingEntity",
           "type": "FIELD"
+        },
+        {
+          "element": "func_70005_c_",
+          "type": "METHOD"
+        }
+      ],
+      "range": 20
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.EnergyBlastProjectile",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "shootingEntity",
+          "type": "FIELD"
+        },
+        {
+          "element": "func_70005_c_",
+          "type": "METHOD"
         }
       ],
       "range": 20
     }
   ]
 }
+
