@@ -1,0 +1,53 @@
+{
+  "modid": "Mekanism",
+  "segments": [
+    {
+      "class": "mekanism.common.item.ItemAtomicDisassembler",
+      "type": "item",
+      "itemType": "LEFT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "MODIFY"
+    },
+    {
+      "class": "mekanism.common.tile.TileEntityDigitalMiner",
+      "type": "tileEntity",
+      "flag": "MODIFY",
+      "xMin": [
+        {
+          "element": "xCoord - 32",
+          "type": "FORMULA"
+        }
+      ],
+      "xMax": [
+        {
+          "element": "xCoord + 32",
+          "type": "FORMULA"
+        }
+      ],
+      "xCoord": [
+        {
+          "element": "xCoord",
+          "type": "FIELD"
+        }
+      ],
+      "zMin": [
+        {
+          "element": "zCoord - 32",
+          "type": "FORMULA"
+        }
+      ],
+      "zMax": [
+        {
+          "element": "zCoord + 32",
+          "type": "FORMULA"
+        }
+      ],
+      "zCoord": [
+        {
+          "element": "zCoord",
+          "type": "FIELD"
+        }
+      ]
+    }
+  ]
+}
