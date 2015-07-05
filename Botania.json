@@ -27,11 +27,16 @@
       "flag": "MODIFY",
       "owner": [
         {
-          "element": "_owner",
-          "type": "FIELD"
+          "element": "func_85052_h",
+          "type": "METHOD"
+        },
+        {
+          "element": "func_70005_c_",
+          "type": "METHOD"
         }
       ],
       "range": 15
     }
   ]
 }
+
