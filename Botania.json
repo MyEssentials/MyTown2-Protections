@@ -1,0 +1,37 @@
+{
+  "modid": "Botania",
+  "segments": [
+    {
+      "class": "vazkii.botania.common.block.tile.mana.TileSpreader",
+      "type": "block",
+      "blockType": "ANY_CLICK",
+      "flag": "ACTIVATE"
+    },
+    {
+      "class": "vazkii.botania.common.item.lens.ItemLens",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": true,
+      "flag": "USAGE"
+    },
+    {
+      "class": "vazkii.botania.common.block.mana.BlockRuneAltar",
+      "type": "block",
+      "blockType": "ANY_CLICK",
+      "flag": "ACCESS"
+    },
+    {
+      "class": "vazkii.botania.common.entity.EntityEnderAirBottle",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "MODIFY",
+      "owner": [
+        {
+          "element": "_owner",
+          "type": "FIELD"
+        }
+      ],
+      "range": 15
+    }
+  ]
+}
