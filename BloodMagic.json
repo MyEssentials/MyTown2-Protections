@@ -69,6 +69,165 @@
       "onAdjacent": false,
       "flag": "MODIFY",
       "range": 16
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.items.EnergyItems",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "USAGE",
+      "range": 16
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.items.EnergyItems",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_AIR",
+      "onAdjacent": false,
+      "flag": "USAGE",
+      "range": 16
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.ExplosionProjectile",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "_owner",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.EnergyBlastProjectile",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "_owner",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.EntityEnergyBazookaMainProjectile",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "_owner",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.EntityEnergyBazookaSecondaryProjectile",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "_owner",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.FireProjectile",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "_owner",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.HolyProjectile",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "_owner",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.IceProjectile",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "_owner",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.LightningBoltProjectile",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "_owner",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.WaterProjectile",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "MODIFY",
+      "owner": [
+        {
+          "element": "_owner",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.MudProjectile",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "MODIFY",
+      "owner": [
+        {
+          "element": "_owner",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.EntityBloodLightProjectile",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "MODIFY",
+      "owner": [
+        {
+          "element": "_owner",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
     }
   ]
 }
