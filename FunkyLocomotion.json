@@ -1,0 +1,12 @@
+{
+  "modid": "funkylocomotion",
+  "segments": [
+    {
+      "class": "com.rwtema.funkylocomotion.items.ItemWrench",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "MODIFY"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "modid": "runicdungeons",
+  "segments": [
+    {
+      "class": "mrcomputerghost.runicdungeons.blocks.BlockRunicPortal",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACCESS"
+    }
+  ]
+}
