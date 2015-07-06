@@ -220,6 +220,16 @@
         }
       ],
       "range": 15
+    },
+    {
+      "class": "thaumcraft.common.entities.monster.EntityWisp",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": {
+        "name": "MOBS",
+        "denialValue": "passives"
+      }
     }
   ]
 }
+
