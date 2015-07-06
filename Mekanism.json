@@ -26,9 +26,10 @@
           0,
           -1,
           1,
-          1,
+          2,
           1
-        ]
+        ],
+        "directional": false
       },
       "flag": "MODIFY",
       "range": 32
