@@ -9,45 +9,30 @@
       "flag": "MODIFY"
     },
     {
-      "class": "mekanism.common.tile.TileEntityDigitalMiner",
-      "type": "tileEntity",
+      "class": "mekanism.common.item.ItemConfigurator",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "MODIFY"
+    },
+    {
+      "class": "mekanism.common.item.ItemBlockMachine",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "clientUpdate": {
+        "coords": [
+          -1,
+          0,
+          -1,
+          1,
+          1,
+          1
+        ]
+      },
       "flag": "MODIFY",
-      "xMin": [
-        {
-          "element": "xCoord - 32",
-          "type": "FORMULA"
-        }
-      ],
-      "xMax": [
-        {
-          "element": "xCoord + 32",
-          "type": "FORMULA"
-        }
-      ],
-      "xCoord": [
-        {
-          "element": "xCoord",
-          "type": "FIELD"
-        }
-      ],
-      "zMin": [
-        {
-          "element": "zCoord - 32",
-          "type": "FORMULA"
-        }
-      ],
-      "zMax": [
-        {
-          "element": "zCoord + 32",
-          "type": "FORMULA"
-        }
-      ],
-      "zCoord": [
-        {
-          "element": "zCoord",
-          "type": "FIELD"
-        }
-      ]
+      "range": 32
     }
   ]
 }
+
