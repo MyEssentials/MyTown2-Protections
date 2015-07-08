@@ -145,7 +145,7 @@
       "flag": "PVP",
       "owner": [
         {
-          "element": "func_70242_d",
+          "element": "shootingEntity",
           "type": "FIELD"
         }
       ],
