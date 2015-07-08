@@ -145,14 +145,14 @@
       "flag": "PVP",
       "owner": [
         {
-          "element": "shootingEntity",
+          "element": "field_70235_a",
           "type": "FIELD"
         },
         {
-          "element": "getCommandSenderName",
+          "element": "func_70005_c_",
           "type": "METHOD"
         }
-    ],
+      ],
       "range": 5
     },
     {
