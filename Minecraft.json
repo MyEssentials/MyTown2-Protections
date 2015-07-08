@@ -147,8 +147,12 @@
         {
           "element": "shootingEntity",
           "type": "FIELD"
+        },
+        {
+          "element": "getCommandSenderName",
+          "type": "METHOD"
         }
-      ],
+    ],
       "range": 5
     },
     {
