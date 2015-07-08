@@ -32,6 +32,23 @@
         "directional": false
       },
       "flag": "MODIFY",
+      "condition": "itemDamage == 4 AND blockName == 'tile.MachineBlock'",
+      "itemDamage": [
+        {
+          "element": "itemDamage",
+          "type": "FIELD"
+        }
+      ],
+      "blockName": [
+        {
+          "element": "getItem",
+          "type": "METHOD"
+        },
+        {
+          "element": "getUnlocalizedName",
+          "type": "METHOD"
+        }
+      ],
       "range": 32
     }
   ]
