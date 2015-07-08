@@ -16,6 +16,13 @@
       "flag": "MODIFY"
     },
     {
+      "class": "mekanism.common.block.BlockBounding",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACCESS"
+    },
+    {
       "class": "mekanism.common.item.ItemBlockMachine",
       "type": "item",
       "itemType": "RIGHT_CLICK_BLOCK",
