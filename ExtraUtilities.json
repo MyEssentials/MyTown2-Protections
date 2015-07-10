@@ -105,6 +105,20 @@
       "blockType": "RIGHT_CLICK",
       "meta": -1,
       "flag": "ACCESS"
+    },
+    {
+      "class": "com.rwtema.extrautils.item.ItemPaintbrush",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "MODIFY"
+    },
+    {
+      "class": "com.rwtema.extrautils.item.ItemTemporalHoe",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "MODIFY"
     }
   ]
 }
