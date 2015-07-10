@@ -2,14 +2,84 @@
   "modid": "ExtraUtilities",
   "segments": [
     {
-      "class": "com.rwtema.extrautils.tileentity.enderconstructor.BlockEnderConstructor",
-      "type": "block",
-      "blockType": "RIGHT_CLICK",
-      "meta": -1,
-      "flag": "ACCESS"
+      "class": "com.rwtema.extrautils.tileentity.enderquarry.TileEntityEnderQuarry",
+      "type": "tileEntity",
+      "flag": "MODIFY",
+      "condition": "started == true",
+      "started": [
+        {
+          "element": "started",
+          "type": "FIELD"
+        }
+      ],
+      "zMin": [
+        {
+          "element": "min_z",
+          "type": "FIELD"
+        }
+      ],
+      "zMax": [
+        {
+          "element": "max_z",
+          "type": "FIELD"
+        }
+      ],
+      "xMin": [
+        {
+          "element": "min_x",
+          "type": "FIELD"
+        }
+      ],
+      "xMax": [
+        {
+          "element": "max_x",
+          "type": "FIELD"
+        }
+      ]
     },
     {
-      "class": "com.rwtema.extrautils.tileentity.generators.BlockGenerator",
+      "class": "com.rwtema.extrautils.tileentity.TileEntityEnderThermicLavaPump",
+      "type": "tileEntity",
+      "flag": "MODIFY",
+      "zMin": [
+        {
+          "element": "chunk_z * 16",
+          "type": "FORMULA"
+        }
+      ],
+      "zMax": [
+        {
+          "element": "zMin + 15",
+          "type": "FORMULA"
+        }
+      ],
+      "xMin": [
+        {
+          "element": "chunk_x * 16",
+          "type": "FORMULA"
+        }
+      ],
+      "xMax": [
+        {
+          "element": "xMin + 15",
+          "type": "FORMULA"
+        }
+      ],
+      "chunk_x": [
+        {
+          "element": "chunk_x",
+          "type": "FIELD"
+        }
+      ],
+      "chunk_z": [
+        {
+          "element": "chunk_z",
+          "type": "FIELD"
+        }
+      ]
+    },
+    {
+      "class": "com.rwtema.extrautils.block.BlockDrum",
       "type": "block",
       "blockType": "RIGHT_CLICK",
       "meta": -1,
@@ -23,21 +93,14 @@
       "flag": "ACCESS"
     },
     {
-      "class": "com.rwtema.extrautils.tileentity.transfernodes.BlockTransferNode",
-      "type": "block",
-      "blockType": "RIGHT_CLICK",
-      "meta": -1,
-      "flag": "ACCESS"
-    },
-    {
-      "class": "com.rwtema.extrautils.tileentity.transfernodes.BlockTransferPipe",
-      "type": "block",
-      "blockType": "RIGHT_CLICK",
-      "meta": -1,
-      "flag": "ACCESS"
-    },
-    {
       "class": "com.rwtema.extrautils.block.BlockPortal",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACCESS"
+    },
+    {
+      "class": "com.rwtema.extrautils.block.BlockMultiBlock",
       "type": "block",
       "blockType": "RIGHT_CLICK",
       "meta": -1,
@@ -45,3 +108,4 @@
     }
   ]
 }
+
