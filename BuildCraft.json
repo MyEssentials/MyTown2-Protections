@@ -4,6 +4,7 @@
     {
       "class": "buildcraft.builders.TileConstructionMarker",
       "type": "tileEntity",
+      "hasOwner": true,
       "flag": "MODIFY",
       "zMin": [
         {
@@ -49,6 +50,7 @@
     {
       "class": "buildcraft.core.builders.TileAbstractBuilder",
       "type": "tileEntity",
+      "hasOwner": true,
       "flag": "MODIFY",
       "zMin": [
         {
