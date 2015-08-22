@@ -4,6 +4,7 @@
     {
       "class": "com.rwtema.extrautils.tileentity.enderquarry.TileEntityEnderQuarry",
       "type": "tileEntity",
+      "hasOwner": true,
       "flag": "MODIFY",
       "condition": "started == true",
       "started": [
@@ -40,6 +41,7 @@
     {
       "class": "com.rwtema.extrautils.tileentity.TileEntityEnderThermicLavaPump",
       "type": "tileEntity",
+      "hasOwner": true,
       "flag": "MODIFY",
       "zMin": [
         {
