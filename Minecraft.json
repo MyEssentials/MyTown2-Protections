@@ -147,10 +147,6 @@
         {
           "element": "field_70235_a",
           "type": "FIELD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 5
@@ -164,10 +160,6 @@
         {
           "element": "field_94084_b",
           "type": "FIELD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 5

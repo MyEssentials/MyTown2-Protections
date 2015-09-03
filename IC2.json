@@ -10,19 +10,15 @@
         {
           "element": "igniter",
           "type": "FIELD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": [
         {
-          "element": "value * 1.5",
+          "element": "explosivePower * 1.5",
           "type": "FORMULA"
         }
       ],
-      "value": [
+      "explosivePower": [
         {
           "element": "explosivePower",
           "type": "FIELD"
@@ -38,10 +34,6 @@
         {
           "element": "owner",
           "type": "FIELD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 1
@@ -55,10 +47,6 @@
         {
           "element": "owner",
           "type": "FIELD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 20

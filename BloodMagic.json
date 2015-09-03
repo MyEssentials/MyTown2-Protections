@@ -5,21 +5,21 @@
       "class": "WayofTime.alchemicalWizardry.common.items.sigil.LavaSigil",
       "type": "item",
       "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
+      "onAdjacent": true,
       "flag": "MODIFY"
     },
     {
       "class": "WayofTime.alchemicalWizardry.common.items.sigil.WaterSigil",
       "type": "item",
       "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
+      "onAdjacent": true,
       "flag": "MODIFY"
     },
     {
       "class": "WayofTime.alchemicalWizardry.common.items.sigil.ItemBloodLightSigil",
       "type": "item",
       "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
+      "onAdjacent": true,
       "flag": "MODIFY"
     },
     {
@@ -95,10 +95,6 @@
         {
           "element": "shootingEntity",
           "type": "FIELD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 20
@@ -112,10 +108,6 @@
         {
           "element": "shootingEntity",
           "type": "FIELD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 20
@@ -129,10 +121,6 @@
         {
           "element": "shootingEntity",
           "type": "FIELD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 20
@@ -146,10 +134,6 @@
         {
           "element": "shootingEntity",
           "type": "FIELD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 20

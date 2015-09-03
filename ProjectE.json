@@ -10,10 +10,6 @@
         {
           "element": "field_94084_b",
           "type": "FIELD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
      "range": 48
@@ -27,10 +23,6 @@
         {
           "element": "field_94084_b",
           "type": "FIELD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 16
@@ -43,10 +35,6 @@
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
           "type": "METHOD"
         }
       ],
@@ -61,10 +49,6 @@
         {
           "element": "func_85052_h",
           "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 7
@@ -77,10 +61,6 @@
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
           "type": "METHOD"
         }
       ],

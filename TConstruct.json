@@ -8,12 +8,8 @@
       "flag": "EXPLOSIONS",
       "owner": [
         {
-          "element": "field_94084_b",
+          "element": "tntPlacedBy",
           "type": "FIELD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 7
