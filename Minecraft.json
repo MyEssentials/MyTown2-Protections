@@ -139,6 +139,23 @@
       "range": 5
     },
     {
+      "class": "net.minecraft.entity.projectile.EntityArrow",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "PVP",
+      "owner": [
+        {
+          "element": "field_70235_a",
+          "type": "FIELD"
+        },
+        {
+          "element": "func_70005_c_",
+          "type": "METHOD"
+        }
+      ],
+      "range": 5
+    },
+    {
       "class": "net.minecraft.entity.item.EntityTNTPrimed",
       "type": "entity",
       "entityType": "TRACKED",
