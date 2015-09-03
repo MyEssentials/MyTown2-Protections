@@ -2,7 +2,7 @@
   "modid": "rftools",
   "segments": [
     {
-      "class": "mcjty.container.GenericContainerBlock",
+      "class": "mcjty.container.GenericBlock",
       "type": "block",
       "blockType": "RIGHT_CLICK",
       "flag": "ACCESS"
