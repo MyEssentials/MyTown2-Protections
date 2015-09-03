@@ -29,6 +29,38 @@
         "name": "MOBS",
         "denialValue": "passives"
       }
+    },
+    {
+      "class": "tconstruct.items.tools.LumberAxe",
+      "type": "item",
+      "itemType": "BREAK_BLOCK",
+      "flag": "MODIFY",
+      "clientUpdate": {
+        "coords":[
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        1      
+       ]},
+      "onAdjacent": false
+    },
+    {
+      "class": "tconstruct.items.tools.Scythe",
+      "type": "item",
+      "itemType": "BREAK_BLOCK",
+      "flag": "MODIFY",
+      "clientUpdate": {
+        "coords":[
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        1      
+       ]},
+      "onAdjacent": false
     }
   ]
 }
