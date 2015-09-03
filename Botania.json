@@ -41,7 +41,7 @@
       "class": "vazkii.botania.common.item.ItemGrassHorn",
       "type": "item",
       "itemType": "RIGHT_CLICK_AIR", 
-      "onAdjacent": false,
+      "onAdjacent": true,
       "flag": "USAGE",
       "range": 15
     },
@@ -49,7 +49,7 @@
       "class": "vazkii.botania.common.item.ItemGrassHorn",
       "type": "item",
       "itemType": "RIGHT_CLICK_BLOCK", 
-      "onAdjacent": false,
+      "onAdjacent": true,
       "flag": "USAGE",
       "range": 15
     }
