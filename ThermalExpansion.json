@@ -43,7 +43,7 @@
       "class": "cofh.thermalexpansion.item.tool.ItemIgniter",
       "type": "item",
       "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
+      "onAdjacent": true,
       "flag": "MODIFY"
     }
   ]
