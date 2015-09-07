@@ -42,10 +42,6 @@
         {
           "element": "dummycaster",
           "type": "FIELD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 15
@@ -58,10 +54,6 @@
       "owner": [
         {
           "element": "getShootingEntity",
-          "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
           "type": "METHOD"
         }
       ],
@@ -76,10 +68,6 @@
         {
           "element": "throwingEntity",
           "type": "FIELD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 15
@@ -93,10 +81,6 @@
         {
           "element": "throwingEntity",
           "type": "FIELD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 15

@@ -8,12 +8,8 @@
       "flag": "EXPLOSIONS",
       "owner": [
         {
-          "element": "field_94084_b",
+          "element": "tntPlacedBy",
           "type": "FIELD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 7
@@ -33,6 +29,38 @@
         "name": "MOBS",
         "denialValue": "passives"
       }
+    },
+    {
+      "class": "tconstruct.items.tools.LumberAxe",
+      "type": "item",
+      "itemType": "BREAK_BLOCK",
+      "flag": "MODIFY",
+      "clientUpdate": {
+        "coords":[
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        1      
+       ]},
+      "onAdjacent": false
+    },
+    {
+      "class": "tconstruct.items.tools.Scythe",
+      "type": "item",
+      "itemType": "BREAK_BLOCK",
+      "flag": "MODIFY",
+      "clientUpdate": {
+        "coords":[
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        1      
+       ]},
+      "onAdjacent": false
     }
   ]
 }
