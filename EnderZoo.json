@@ -4,11 +4,8 @@
     {
       "class": "crazypants.enderzoo.entity.EntityFallenMount",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": {
-        "name": "MOBS",
-        "denialValue": "passives"
-      }
+      "actions": "TRACKED",
+      "flags": "MOBS"
     }
   ]
 }

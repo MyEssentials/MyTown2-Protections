@@ -4,15 +4,15 @@
     {
       "class": "mcjty.container.GenericContainerBlock",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
-      "flag": "ACCESS"
+      "actions": "RIGHT_CLICK",
+      "flags": "ACCESS"
     },
     {
       "class": "mcjty.rftools.items.smartwrench.SmartWrenchItem",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY"
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     }
   ]
 }

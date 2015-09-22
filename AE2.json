@@ -4,38 +4,38 @@
     {
       "class": "appeng.items.tools.quartz.ToolQuartzWrench",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY"
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     },
     {
       "class": "appeng.items.tools.ToolNetworkTool",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY"
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     },
     {
       "class": "appeng.items.parts.ItemMultiPart",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY"
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     },
     {
       "class": "appeng.items.tools.powered.ToolMassCannon",
       "type": "item",
-      "itemType": "RIGHT_CLICK_AIR",
-      "onAdjacent": false,
-      "flag": "MODIFY",
+      "actions": "RIGHT_CLICK_AIR",
+      "isAdjacent": false,
+      "flags": "MODIFY",
       "range": 32
     },
     {
       "class": "appeng.items.tools.powered.ToolEntropyManipulator",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY"
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     }
   ]
 }

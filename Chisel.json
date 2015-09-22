@@ -4,15 +4,15 @@
     {
       "class": "com.cricketcraft.chisel.item.chisel.ItemChisel",
       "type": "item",
-      "itemType": "LEFT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY"
+      "actions": "LEFT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     },
     {
       "class": "com.cricketcraft.chisel.entity.EntityBallOMoss",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "MODIFY",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",
@@ -24,8 +24,8 @@
     {
       "class": "com.cricketcraft.chisel.entity.EntityCloudInABottle",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "MODIFY",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",
@@ -37,8 +37,8 @@
     {
       "class": "com.cricketcraft.chisel.entity.EntitySmashingRock",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "MODIFY",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",

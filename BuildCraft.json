@@ -4,8 +4,8 @@
     {
       "class": "buildcraft.builders.TileConstructionMarker",
       "type": "tileEntity",
-      "hasOwner": true,
-      "flag": "MODIFY",
+      "retainsOwner": true,
+      "flags": "MODIFY",
       "zMin": [
         {
           "element": "getBox",
@@ -50,8 +50,8 @@
     {
       "class": "buildcraft.core.builders.TileAbstractBuilder",
       "type": "tileEntity",
-      "hasOwner": true,
-      "flag": "MODIFY",
+      "retainsOwner": true,
+      "flags": "MODIFY",
       "zMin": [
         {
           "element": "getBox",
@@ -96,9 +96,9 @@
     {
       "class": "buildcraft.core.ItemWrench",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY"
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     }
   ]
 }

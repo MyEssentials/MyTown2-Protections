@@ -4,24 +4,24 @@
     {
       "class": "thaumcraft.common.items.wands.ItemWandCasting",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY",
       "range": 30
     },
     {
       "class": "thaumcraft.common.items.wands.ItemWandCasting",
       "type": "item",
-      "itemType": "RIGHT_CLICK_AIR",
-      "onAdjacent": false,
-      "flag": "USAGE",
+      "actions": "RIGHT_CLICK_AIR",
+      "isAdjacent": false,
+      "flags": "USAGE",
       "range": 20
     },
     {
       "class": "thaumcraft.common.entities.projectile.EntityAlumentum",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
       "owner": [
         {
           "element": "func_85052_h",
@@ -37,8 +37,8 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityBottleTaint",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "MODIFY",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",
@@ -54,8 +54,8 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityEldritchOrb",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "PVP",
+      "actions": "TRACKED",
+      "flags": "PVP",
       "owner": [
         {
           "element": "func_85052_h",
@@ -71,8 +71,8 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityEmber",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "MODIFY",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",
@@ -88,8 +88,8 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityEmber",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "PVP",
+      "actions": "TRACKED",
+      "flags": "PVP",
       "owner": [
         {
           "element": "func_85052_h",
@@ -105,8 +105,8 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityExplosiveOrb",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
       "owner": [
         {
           "element": "func_85052_h",
@@ -122,8 +122,8 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityFrostShard",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "PVP",
+      "actions": "TRACKED",
+      "flags": "PVP",
       "owner": [
         {
           "element": "func_85052_h",
@@ -139,8 +139,8 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityGolemOrb",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "PVP",
+      "actions": "TRACKED",
+      "flags": "PVP",
       "owner": [
         {
           "element": "func_85052_h",
@@ -156,8 +156,8 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityPechBlast",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "PVP",
+      "actions": "TRACKED",
+      "flags": "PVP",
       "owner": [
         {
           "element": "func_85052_h",
@@ -173,8 +173,8 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityPrimalOrb",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
       "owner": [
         {
           "element": "func_85052_h",
@@ -190,8 +190,8 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityShockOrb",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "MODIFY",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",
@@ -207,8 +207,8 @@
     {
       "class": "thaumcraft.common.entities.projectile.EntityShockOrb",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "PVP",
+      "actions": "TRACKED",
+      "flags": "PVP",
       "owner": [
         {
           "element": "func_85052_h",
@@ -224,11 +224,8 @@
     {
       "class": "thaumcraft.common.entities.monster.EntityWisp",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": {
-        "name": "MOBS",
-        "denialValue": "passives"
-      }
+      "actions": "TRACKED",
+      "flags": "MOBS"
     }
   ]
 }

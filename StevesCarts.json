@@ -4,8 +4,8 @@
     {
       "class": "vswe.stevescarts.Carts.MinecartModular",
       "type": "entity",
-      "entityType": "PROTECT",
-      "flag": "ACCESS"
+      "actions": "PROTECT",
+      "flags": "ACCESS"
     }
   ]
 }

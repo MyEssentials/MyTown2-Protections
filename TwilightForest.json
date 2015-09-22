@@ -4,31 +4,31 @@
     {
       "class": "twilightforest.item.ItemTF",
       "type": "item",
-      "itemType": "RIGHT_CLICK_AIR",
-      "onAdjacent": false,
-      "flag": "USAGE",
+      "actions": "RIGHT_CLICK_AIR",
+      "isAdjacent": false,
+      "flags": "USAGE",
       "range": 10
     },
     {
       "class": "twilightforest.item.ItemTF",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "USAGE",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "USAGE",
       "range": 10
     },
     {
       "class": "twilightforest.block.BlockTFUncraftingTable",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACCESS"
+      "flags": "ACCESS"
     },
     {
       "class": "twilightforest.entity.boss.EntityTFIceBomb",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "MODIFY",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",
@@ -44,8 +44,8 @@
     {
       "class": "twilightforest.entity.EntityTFMoonwormShot",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "MODIFY",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",
@@ -61,8 +61,8 @@
     {
       "class": "twilightforest.entity.EntityTFTwilightWandBolt",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
       "owner": [
         {
           "element": "func_85052_h",
@@ -78,11 +78,8 @@
     {
       "class": "twilightforest.entity.EntityTFLoyalZombie",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": {
-        "name": "MOBS",
-        "denialValue": "passives"
-      }
+      "actions": "TRACKED",
+      "flags": "MOBS"
     }
   ]
 }

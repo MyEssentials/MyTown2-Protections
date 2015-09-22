@@ -4,8 +4,8 @@
     {
       "class": "mods.railcraft.common.carts.EntityTunnelBore",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "MODIFY",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
       "owner": [
         {
           "element": "owner",
@@ -21,8 +21,8 @@
     {
       "class": "mods.railcraft.common.carts.CartMaintenanceBase",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "MODIFY",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
       "owner": [
         {
           "element": "owner",
@@ -38,8 +38,8 @@
     {
       "class": "mods.railcraft.common.carts.CartExplosiveBase",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
       "owner": [
         {
           "element": "owner",
@@ -55,8 +55,8 @@
     {
       "class": "mods.railcraft.common.items.ItemCrowbar",
       "type": "item",
-      "itemType": "RIGHT_CLICK_ENTITY",
-      "flag": "MODIFY"
+      "actions": "RIGHT_CLICK_ENTITY",
+      "flags": "MODIFY"
     }
   ]
 }

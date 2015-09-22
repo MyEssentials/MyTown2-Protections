@@ -4,18 +4,15 @@
     {
       "class": "com.brandon3055.draconicevolution.common.entity.EntityCustomDragon",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": {
-        "name": "MOBS",
-        "denialValue": "passives"
-      }
+      "actions": "TRACKED",
+      "flags": "MOBS"
     },
     {
       "class": "com.brandon3055.draconicevolution.common.blocks.BlockContainerDE",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACCESS"
+      "flags": "ACCESS"
     }
   ]
 }

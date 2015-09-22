@@ -4,9 +4,9 @@
     {
       "class": "erogenousbeef.bigreactors.common.block.BlockBRDevice",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACCESS"
+      "flags": "ACCESS"
     }
   ]
 }

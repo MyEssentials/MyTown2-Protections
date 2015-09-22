@@ -4,8 +4,8 @@
     {
       "class": "moze_intel.projecte.gameObjs.entity.EntityNovaCataclysmPrimed",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
       "owner": [
         {
           "element": "field_94084_b",
@@ -17,8 +17,8 @@
     {
       "class": "moze_intel.projecte.gameObjs.entity.EntityNovaCatalystPrimed",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
       "owner": [
         {
           "element": "field_94084_b",
@@ -30,8 +30,8 @@
     {
       "class": "moze_intel.projecte.gameObjs.entity.EntityLavaProjectile",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
       "owner": [
         {
           "element": "func_85052_h",
@@ -43,8 +43,8 @@
     {
       "class": "moze_intel.projecte.gameObjs.entity.EntityWaterProjectile",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
       "owner": [
         {
           "element": "func_85052_h",
@@ -56,8 +56,8 @@
     {
       "class": "moze_intel.projecte.gameObjs.entity.EntityLensProjectile",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
       "owner": [
         {
           "element": "func_85052_h",
