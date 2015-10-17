@@ -4,23 +4,23 @@
     {
       "class": "gregtech.common.tools.GT_Tool",
       "type": "item",
-      "itemType": "LEFT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY"
+      "actions": "LEFT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     },
     {
       "class": "gregtech.common.tools.GT_Tool",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY"
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     },
     {
       "class": "gregtech.common.blocks.GT_Block_Machines",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACCESS"
+      "flags": "ACCESS"
     }
   ]
 }

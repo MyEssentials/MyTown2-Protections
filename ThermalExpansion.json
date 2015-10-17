@@ -4,15 +4,15 @@
     {
       "class": "cofh.core.block.BlockCoFHBase",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACCESS"
+      "flags": "ACCESS"
     },
     {
       "class": "cofh.thermalexpansion.entity.projectile.EntityFlorb",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "MODIFY",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",
@@ -28,16 +28,16 @@
     {
       "class": "cofh.thermalexpansion.item.tool.ItemWrench",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY"
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     },
     {
       "class": "cofh.thermalexpansion.item.tool.ItemWrenchBattle",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY"
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     }
   ]
 }

@@ -4,23 +4,23 @@
     {
       "class": "forestry.core.items.ItemWrench",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY"
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     },
     {
       "class": "forestry.core.items.ItemForestry",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "USAGE"
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "USAGE"
     },
     {
       "class": "forestry.core.items.ItemLiquidContainer",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": true,
-      "flag": "USAGE"
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": true,
+      "flags": "USAGE"
     }
   ]
 }

@@ -4,15 +4,15 @@
     {
       "class": "powercrystals.minefactoryreloaded.block.BlockFactory",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACCESS"
+      "flags": "ACCESS"
     },
     {
       "class": "powercrystals.minefactoryreloaded.entity.EntityRocket",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
       "owner": [
         {
           "element": "_owner",
@@ -24,8 +24,8 @@
     {
       "class": "powercrystals.minefactoryreloaded.entity.EntityNeedle",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "MODIFY",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
       "owner": [
         {
           "element": "_owner",
@@ -37,8 +37,8 @@
     {
       "class": "powercrystals.minefactoryreloaded.entity.EntitySafariNet",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
       "owner": [
         {
           "element": "func_85052_h",
@@ -50,9 +50,9 @@
     {
       "class": "powercrystals.minefactoryreloaded.item.tool.ItemFactoryHammer",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY"
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     }
   ]
 }

@@ -4,8 +4,8 @@
     {
       "class": "tconstruct.mechworks.entity.item.ExplosivePrimed",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "EXPLOSIONS",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
       "owner": [
         {
           "element": "tntPlacedBy",
@@ -17,24 +17,21 @@
     {
       "class": "tconstruct.world.blocks.OreberryBush",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACCESS"
+      "flags": "ACCESS"
     },
     {
       "class": "tconstruct.world.entity.BlueSlime",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": {
-        "name": "MOBS",
-        "denialValue": "passives"
-      }
+      "actions": "TRACKED",
+      "flags": "MOBS"
     },
     {
       "class": "tconstruct.items.tools.LumberAxe",
       "type": "item",
-      "itemType": "BREAK_BLOCK",
-      "flag": "MODIFY",
+      "actions": "BREAK_BLOCK",
+      "flags": "MODIFY",
       "clientUpdate": {
         "coords":[
         -1,
@@ -49,8 +46,8 @@
     {
       "class": "tconstruct.items.tools.Scythe",
       "type": "item",
-      "itemType": "BREAK_BLOCK",
-      "flag": "MODIFY",
+      "actions": "BREAK_BLOCK",
+      "flags": "MODIFY",
       "clientUpdate": {
         "coords":[
         -1,

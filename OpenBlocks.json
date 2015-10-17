@@ -4,9 +4,9 @@
     {
       "class": "openblocks.common.block.OpenBlock",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACCESS"
+      "flags": "ACCESS"
     }
   ]
 }

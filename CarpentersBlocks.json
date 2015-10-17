@@ -4,37 +4,37 @@
     {
       "class": "com.carpentersblocks.block.BlockCarpentersButton",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACTIVATE"
+      "flags": "ACTIVATE"
     },
     {
       "class": "com.carpentersblocks.block.BlockCarpentersDoor",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACTIVATE"
+      "flags": "ACTIVATE"
     },
     {
       "class": "com.carpentersblocks.block.BlockCarpentersLever",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACTIVATE"
+      "flags": "ACTIVATE"
     },
     {
       "class": "com.carpentersblocks.block.BlockCarpentersGate",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACTIVATE"
+      "flags": "ACTIVATE"
     },
     {
       "class": "com.carpentersblocks.block.BlockCarpentersHatch",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACTIVATE"
+      "flags": "ACTIVATE"
     }
   ]
 }

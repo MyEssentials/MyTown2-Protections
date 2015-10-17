@@ -4,8 +4,8 @@
     {
       "class": "com.rwtema.extrautils.tileentity.enderquarry.TileEntityEnderQuarry",
       "type": "tileEntity",
-      "hasOwner": true,
-      "flag": "MODIFY",
+      "retainsOwner": true,
+      "flags": "MODIFY",
       "condition": "started == true",
       "started": [
         {
@@ -41,8 +41,8 @@
     {
       "class": "com.rwtema.extrautils.tileentity.TileEntityEnderThermicLavaPump",
       "type": "tileEntity",
-      "hasOwner": true,
-      "flag": "MODIFY",
+      "retainsOwner": true,
+      "flags": "MODIFY",
       "zMin": [
         {
           "element": "chunk_z * 16",
@@ -83,44 +83,44 @@
     {
       "class": "com.rwtema.extrautils.block.BlockDrum",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACCESS"
+      "flags": "ACCESS"
     },
     {
       "class": "com.rwtema.extrautils.block.BlockFilingCabinet",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACCESS"
+      "flags": "ACCESS"
     },
     {
       "class": "com.rwtema.extrautils.block.BlockPortal",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACCESS"
+      "flags": "ACCESS"
     },
     {
       "class": "com.rwtema.extrautils.block.BlockMultiBlock",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACCESS"
+      "flags": "ACCESS"
     },
     {
       "class": "com.rwtema.extrautils.item.ItemPaintbrush",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY"
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     },
     {
       "class": "com.rwtema.extrautils.item.ItemTemporalHoe",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY"
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     }
   ]
 }

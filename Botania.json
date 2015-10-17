@@ -4,27 +4,27 @@
     {
       "class": "vazkii.botania.common.block.tile.mana.TileSpreader",
       "type": "block",
-      "blockType": "ANY_CLICK",
-      "flag": "ACTIVATE"
+      "actions": "ANY_CLICK",
+      "flags": "ACTIVATE"
     },
     {
       "class": "vazkii.botania.common.item.lens.ItemLens",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": true,
-      "flag": "USAGE"
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": true,
+      "flags": "USAGE"
     },
     {
       "class": "vazkii.botania.common.block.mana.BlockRuneAltar",
       "type": "block",
-      "blockType": "ANY_CLICK",
-      "flag": "ACCESS"
+      "actions": "ANY_CLICK",
+      "flags": "ACCESS"
     },
     {
       "class": "vazkii.botania.common.entity.EntityEnderAirBottle",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "MODIFY",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
       "owner": [
         {
           "element": "func_85052_h",

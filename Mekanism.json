@@ -4,29 +4,29 @@
     {
       "class": "mekanism.common.item.ItemAtomicDisassembler",
       "type": "item",
-      "itemType": "LEFT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY"
+      "actions": "LEFT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     },
     {
       "class": "mekanism.common.item.ItemConfigurator",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY"
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     },
     {
       "class": "mekanism.common.block.BlockBounding",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACCESS"
+      "flags": "ACCESS"
     },
     {
       "class": "mekanism.common.item.ItemBlockMachine",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
       "clientUpdate": {
         "coords": [
           -1,
@@ -38,7 +38,7 @@
         ],
         "directional": false
       },
-      "flag": "MODIFY",
+      "flags": "MODIFY",
       "condition": "itemDamage == 4 AND blockName == 'tile.MachineBlock'",
       "itemDamage": [
         {

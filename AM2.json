@@ -4,40 +4,40 @@
     {
       "class": "am2.items.SpellBase",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY",
       "range": 10
     },
     {
       "class": "am2.items.SpellBase",
       "type": "item",
-      "itemType": "RIGHT_CLICK_AIR",
-      "onAdjacent": false,
-      "flag": "USAGE",
+      "actions": "RIGHT_CLICK_AIR",
+      "isAdjacent": false,
+      "flags": "USAGE",
       "range": 10
     },
     {
       "class": "am2.items.ItemSpellBook",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY",
       "range": 10
     },
     {
       "class": "am2.items.ItemSpellBook",
       "type": "item",
-      "itemType": "RIGHT_CLICK_AIR",
-      "onAdjacent": false,
-      "flag": "USAGE",
+      "actions": "RIGHT_CLICK_AIR",
+      "isAdjacent": false,
+      "flags": "USAGE",
       "range": 10
     },
     {
       "class": "am2.entities.EntitySpellEffect",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "MODIFY",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
       "owner": [
         {
           "element": "dummycaster",
@@ -49,8 +49,8 @@
     {
       "class": "am2.entities.EntitySpellProjectile",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "MODIFY",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
       "owner": [
         {
           "element": "getShootingEntity",
@@ -62,8 +62,8 @@
     {
       "class": "am2.entities.EntityThrownRock",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "MODIFY",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
       "owner": [
         {
           "element": "throwingEntity",
@@ -75,8 +75,8 @@
     {
       "class": "am2.entities.EntityThrownSickle",
       "type": "entity",
-      "entityType": "TRACKED",
-      "flag": "PVP",
+      "actions": "TRACKED",
+      "flags": "PVP",
       "owner": [
         {
           "element": "throwingEntity",

@@ -4,30 +4,30 @@
     {
       "class": "crazypants.enderio.machine.AbstractMachineBlock",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACCESS"
+      "flags": "ACCESS"
     },
     {
       "class": "crazypants.enderio.machine.capbank.BlockCapBank",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
+      "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flag": "ACCESS"
+      "flags": "ACCESS"
     },
     {
       "class": "crazypants.enderio.conduit.BlockConduitBundle",
       "type": "block",
-      "blockType": "RIGHT_CLICK",
-      "onAdjacent": false,
-      "flag": "ACCESS"
+      "actions": "RIGHT_CLICK",
+      "isAdjacent": false,
+      "flags": "ACCESS"
     },
     {
       "class": "crazypants.enderio.item.ItemYetaWrench",
       "type": "item",
-      "itemType": "RIGHT_CLICK_BLOCK",
-      "onAdjacent": false,
-      "flag": "MODIFY"
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     }
   ]
 }
