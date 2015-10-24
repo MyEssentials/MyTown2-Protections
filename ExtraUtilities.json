@@ -13,18 +13,6 @@
           "type": "FIELD"
         }
       ],
-      "zMin": [
-        {
-          "element": "min_z",
-          "type": "FIELD"
-        }
-      ],
-      "zMax": [
-        {
-          "element": "max_z",
-          "type": "FIELD"
-        }
-      ],
       "xMin": [
         {
           "element": "min_x",
@@ -36,6 +24,25 @@
           "element": "max_x",
           "type": "FIELD"
         }
+      ],
+      "yMin": 0,
+      "yMax": [
+        {
+          "element": "chunk_y",
+          "type": "FIELD"
+        }
+      ],
+      "zMin": [
+        {
+          "element": "min_z",
+          "type": "FIELD"
+        }
+      ],
+      "zMax": [
+        {
+          "element": "max_z",
+          "type": "FIELD"
+        }
       ]
     },
     {
@@ -43,18 +50,6 @@
       "type": "tileEntity",
       "retainsOwner": true,
       "flags": "MODIFY",
-      "zMin": [
-        {
-          "element": "chunk_z * 16",
-          "type": "FORMULA"
-        }
-      ],
-      "zMax": [
-        {
-          "element": "zMin + 15",
-          "type": "FORMULA"
-        }
-      ],
       "xMin": [
         {
           "element": "chunk_x * 16",
@@ -67,9 +62,34 @@
           "type": "FORMULA"
         }
       ],
+      "yMin": 0,
+      "yMax": [
+        {
+          "element": "te_y - 1",
+          "type": "FORMULA"
+        }
+      ],
+      "zMin": [
+        {
+          "element": "chunk_z * 16",
+          "type": "FORMULA"
+        }
+      ],
+      "zMax": [
+        {
+          "element": "zMin + 15",
+          "type": "FORMULA"
+        }
+      ],
       "chunk_x": [
         {
           "element": "chunk_x",
+          "type": "FIELD"
+        }
+      ],
+      "te_y": [
+        {
+          "element": "field_145848_d",
           "type": "FIELD"
         }
       ],

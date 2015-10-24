@@ -6,26 +6,6 @@
       "type": "tileEntity",
       "retainsOwner": true,
       "flags": "MODIFY",
-      "zMin": [
-        {
-          "element": "getBox",
-          "type": "METHOD"
-        },
-        {
-          "element": "zMin",
-          "type": "FIELD"
-        }
-      ],
-      "zMax": [
-        {
-          "element": "getBox",
-          "type": "METHOD"
-        },
-        {
-          "element": "zMax",
-          "type": "FIELD"
-        }
-      ],
       "xMin": [
         {
           "element": "getBox",
@@ -43,6 +23,46 @@
         },
         {
           "element": "xMax",
+          "type": "FIELD"
+        }
+      ],
+      "yMin": [
+        {
+          "element": "getBox",
+          "type": "METHOD"
+        },
+        {
+          "element": "yMin",
+          "type": "FIELD"
+        }
+      ],
+      "yMax": [
+        {
+          "element": "getBox",
+          "type": "METHOD"
+        },
+        {
+          "element": "yMax",
+          "type": "FIELD"
+        }
+      ],
+      "zMin": [
+        {
+          "element": "getBox",
+          "type": "METHOD"
+        },
+        {
+          "element": "zMin",
+          "type": "FIELD"
+        }
+      ],
+      "zMax": [
+        {
+          "element": "getBox",
+          "type": "METHOD"
+        },
+        {
+          "element": "zMax",
           "type": "FIELD"
         }
       ]
@@ -52,26 +72,6 @@
       "type": "tileEntity",
       "retainsOwner": true,
       "flags": "MODIFY",
-      "zMin": [
-        {
-          "element": "getBox",
-          "type": "METHOD"
-        },
-        {
-          "element": "zMin",
-          "type": "FIELD"
-        }
-      ],
-      "zMax": [
-        {
-          "element": "getBox",
-          "type": "METHOD"
-        },
-        {
-          "element": "zMax",
-          "type": "FIELD"
-        }
-      ],
       "xMin": [
         {
           "element": "getBox",
@@ -89,6 +89,46 @@
         },
         {
           "element": "xMax",
+          "type": "FIELD"
+        }
+      ],
+      "yMin": [
+        {
+          "element": "getBox",
+          "type": "METHOD"
+        },
+        {
+          "element": "yMin",
+          "type": "FIELD"
+        }
+      ],
+      "yMax": [
+        {
+          "element": "getBox",
+          "type": "METHOD"
+        },
+        {
+          "element": "yMax",
+          "type": "FIELD"
+        }
+      ],
+      "zMin": [
+        {
+          "element": "getBox",
+          "type": "METHOD"
+        },
+        {
+          "element": "zMin",
+          "type": "FIELD"
+        }
+      ],
+      "zMax": [
+        {
+          "element": "getBox",
+          "type": "METHOD"
+        },
+        {
+          "element": "zMax",
           "type": "FIELD"
         }
       ]
