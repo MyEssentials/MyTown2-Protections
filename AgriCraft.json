@@ -1,0 +1,12 @@
+{
+  "modid": "AgriCraft",
+  "segments": [
+    {
+      "class": "com.InfinityRaider.AgriCraft.blocks.BlockAgriCraft",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}
