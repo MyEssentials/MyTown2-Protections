@@ -1,0 +1,12 @@
+{
+  "modid": "GardenStuff",
+  "segments": [
+    {
+      "class": "com.jaquadro.minecraft.gardenstuff.block.BlockBloomeryFurnace",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}
