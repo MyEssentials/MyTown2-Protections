@@ -1,0 +1,20 @@
+{
+  "modid": "terrafirmacraft",
+  "segments": [
+    {
+      "class": "com.bioxx.tfc.Blocks.Vanilla.BlockCustomDoor",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACTIVATE"
+    },
+    {
+      "class": "com.bioxx.tfc.Blocks.BlockMetalTrapDoor",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACTIVATE",
+	  "priority": "HIGH"
+    }
+  ]
+}
