@@ -1,6 +1,12 @@
 {
   "modid": "Minecraft",
   "segments": [
+{
+      "class": "net.minecraft.item.ItemBucket",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "flags": "MODIFY"
+    },
     {
       "class": "net.minecraft.block.BlockButton",
       "type": "block",
