@@ -1,0 +1,12 @@
+{
+  "modid": "EnhancedInventories",
+  "segments": [
+    {
+      "class": "yuuto.enhancedinventories.block.base.BlockBaseEI",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}
