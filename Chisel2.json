@@ -1,5 +1,6 @@
 {
   "modid": "chisel",
+  "name": "Chisel 2",
   "segments": [
     {
       "class": "com.cricketcraft.chisel.item.chisel.ItemChisel",
