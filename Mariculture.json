@@ -1,0 +1,18 @@
+{
+  "modid": "Mariculture",
+  "segments": [
+    {
+      "class": "mariculture.core.items.ItemBuckets",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "flags": "MODIFY"
+    },
+    {
+      "class": "mariculture.core.blocks.base.BlockMCBaseMeta",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}
