@@ -1,0 +1,12 @@
+{
+  "modid": "StorageDrawers",
+  "segments": [
+    {
+      "class": "com.jaquadro.minecraft.storagedrawers.block.BlockDrawers",
+      "type": "block",
+      "actions": "LEFT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}
