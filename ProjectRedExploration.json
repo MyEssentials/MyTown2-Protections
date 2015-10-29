@@ -1,0 +1,12 @@
+{
+  "modid": "ProjRed|Exploration",
+  "segments": [
+    {
+      "class": "mrtjp.projectred.exploration.BlockBarrel",
+      "type": "block",
+      "actions": "LEFT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}
