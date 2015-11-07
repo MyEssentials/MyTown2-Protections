@@ -1,0 +1,59 @@
+{
+  "modid": "lycanitesmobs",
+  "segments": [
+    {
+      "class": "lycanite.lycanitesmobs.api.entity.EntityCreatureBase",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MOBS",
+      "condition": "isHostile == true",
+      "isHostile": [
+        {
+          "element": "isHostile",
+          "type": "METHOD"
+        }
+      ]
+    },
+    {
+      "class": "lycanite.lycanitesmobs.api.IGroupAnimal",
+      "type": "entity",
+      "actions": "PROTECT",
+      "flags": "PVE"
+    },
+    {
+      "class": "lycanite.lycanitesmobs.api.entity.EntityProjectileBase",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "PVP",
+      "owner": [
+        {
+          "element": "field_70235_a",
+          "type": "FIELD"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "lycanite.lycanitesmobs.api.block.BlockSummoningPedestal",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "lycanite.lycanitesmobs.api.item.ItemCustomSpawnEgg",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_ENTITY" ],
+      "isAdjacent": true,
+      "flags": "USAGE"
+    },
+    {
+      "class": "lycanite.lycanitesmobs.api.item.ItemSoulkey",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": true,
+      "flags": "MODIFY",
+      "range": 100
+    }
+  ]
+}
