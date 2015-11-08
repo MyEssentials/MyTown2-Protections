@@ -38,6 +38,20 @@
       "actions": "RIGHT_CLICK_BLOCK",
       "isAdjacent": false,
       "flags": "MODIFY"
+    },
+    {
+      "class": "cofh.thermalexpansion.item.tool.ItemIgniter",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": true,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "cofh.thermalexpansion.item.tool.ItemIgniter",
+      "type": "item",
+      "actions": "RIGHT_CLICK_ENTITY",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     }
   ]
 }
