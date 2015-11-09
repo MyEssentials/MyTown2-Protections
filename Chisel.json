@@ -1,0 +1,13 @@
+{
+  "modid": "chisel",
+  "name": "Chisel",
+  "segments": [
+    {
+      "class": "team.chisel.item.chisel.ItemChisel",
+      "type": "item",
+      "actions": "LEFT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
+    }
+  ]
+}

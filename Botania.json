@@ -36,15 +36,7 @@
     {
       "class": "vazkii.botania.common.item.ItemGrassHorn",
       "type": "item",
-      "actions": "RIGHT_CLICK_AIR", 
-      "isAdjacent": true,
-      "flags": "USAGE",
-      "range": 15
-    },
-    {
-      "class": "vazkii.botania.common.item.ItemGrassHorn",
-      "type": "item",
-      "actions": "RIGHT_CLICK_BLOCK", 
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
       "isAdjacent": true,
       "flags": "USAGE",
       "range": 15

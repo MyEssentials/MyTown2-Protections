@@ -4,33 +4,17 @@
     {
       "class": "am2.items.SpellBase",
       "type": "item",
-      "actions": "RIGHT_CLICK_BLOCK",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
       "isAdjacent": false,
-      "flags": "MODIFY",
-      "range": 10
-    },
-    {
-      "class": "am2.items.SpellBase",
-      "type": "item",
-      "actions": "RIGHT_CLICK_AIR",
-      "isAdjacent": false,
-      "flags": "USAGE",
+      "flags": [ "MODIFY", "USAGE" ],
       "range": 10
     },
     {
       "class": "am2.items.ItemSpellBook",
       "type": "item",
-      "actions": "RIGHT_CLICK_BLOCK",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
       "isAdjacent": false,
-      "flags": "MODIFY",
-      "range": 10
-    },
-    {
-      "class": "am2.items.ItemSpellBook",
-      "type": "item",
-      "actions": "RIGHT_CLICK_AIR",
-      "isAdjacent": false,
-      "flags": "USAGE",
+      "flags": [ "MODIFY", "USAGE" ],
       "range": 10
     },
     {
