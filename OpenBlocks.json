@@ -2,6 +2,12 @@
   "modid": "OpenBlocks",
   "segments": [
     {
+      "class": "openblocks.common.block.BlockGrave",
+      "type": "specialBlock",
+      "meta": -1,
+      "isAlwaysBreakable": true
+    },
+    {
       "class": "openblocks.common.block.OpenBlock",
       "type": "block",
       "actions": "RIGHT_CLICK",
