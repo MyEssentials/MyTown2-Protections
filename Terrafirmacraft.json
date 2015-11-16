@@ -6,7 +6,17 @@
       "type": "block",
       "actions": "RIGHT_CLICK",
       "meta": -1,
-      "flags": "ACTIVATE"
+      "flags": "ACTIVATE",
+      "clientUpdate": {
+        "coords": [
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
     },
     {
       "class": "com.bioxx.tfc.Blocks.BlockMetalTrapDoor",
@@ -14,7 +24,7 @@
       "actions": "RIGHT_CLICK",
       "meta": -1,
       "flags": "ACTIVATE",
-	  "priority": "HIGH"
+      "priority": "HIGH"
     }
   ]
 }
