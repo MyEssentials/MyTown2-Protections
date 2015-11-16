@@ -2,12 +2,6 @@
   "modid": "rftools",
   "segments": [
     {
-      "class": "mcjty.container.GenericContainerBlock",
-      "type": "block",
-      "actions": "RIGHT_CLICK",
-      "flags": "ACCESS"
-    },
-    {
       "class": "mcjty.rftools.items.smartwrench.SmartWrenchItem",
       "type": "item",
       "actions": "RIGHT_CLICK_BLOCK",

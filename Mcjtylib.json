@@ -1,0 +1,12 @@
+{
+  "modid": "mcjtylib",
+  "segments": [
+    {
+      "class": "mcjty.container.GenericContainerBlock",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}

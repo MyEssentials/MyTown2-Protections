@@ -191,24 +191,7 @@
       "class": "thaumcraft.common.entities.projectile.EntityShockOrb",
       "type": "entity",
       "actions": "TRACKED",
-      "flags": "MODIFY",
-      "owner": [
-        {
-          "element": "func_85052_h",
-          "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
-        }
-      ],
-      "range": 15
-    },
-    {
-      "class": "thaumcraft.common.entities.projectile.EntityShockOrb",
-      "type": "entity",
-      "actions": "TRACKED",
-      "flags": "PVP",
+      "flags": [ "MODIFY", "PVP" ],
       "owner": [
         {
           "element": "func_85052_h",
