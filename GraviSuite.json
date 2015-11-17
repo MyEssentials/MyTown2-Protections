@@ -1,0 +1,12 @@
+{
+  "modid": "GraviSuite",
+  "segments": [
+    {
+      "class": "gravisuite.ItemVajra",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
+    }
+  ]
+}
