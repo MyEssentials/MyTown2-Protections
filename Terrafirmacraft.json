@@ -1,5 +1,6 @@
 {
   "modid": "terrafirmacraft",
+  "name": "TerraFirmaCraft",
   "segments": [
     {
       "class": "com.bioxx.tfc.Blocks.Vanilla.BlockCustomDoor",
