@@ -136,17 +136,16 @@
       "range": 5
     },
     {
-      "class": "net.minecraft.entity.projectile.EntityArrow",
+      "class": "net.minecraft.entity.passive.EntityWolf",
       "type": "entity",
-      "actions": "TRACKED",
-      "flags": [ "PVP", "PVE" ],
+      "actions": "PVP",
+      "flags": "PVP",
       "owner": [
         {
-          "element": "field_70250_c",
-          "type": "FIELD"
+          "element": "func_70902_q",
+          "type": "METHOD"
         }
-      ],
-      "range": 5
+      ]
     },
     {
       "class": "net.minecraft.entity.item.EntityTNTPrimed",
@@ -185,7 +184,7 @@
       "class": "net.minecraft.item.ItemShears",
       "type": "item",
       "actions": "RIGHT_CLICK_ENTITY",
-      "isnAdjacent": false,
+      "isAdjacent": false,
       "flags": "USAGE"
     },
       {
