@@ -4,14 +4,7 @@
     {
       "class": "gregtech.common.tools.GT_Tool",
       "type": "item",
-      "actions": "LEFT_CLICK_BLOCK",
-      "isAdjacent": false,
-      "flags": "MODIFY"
-    },
-    {
-      "class": "gregtech.common.tools.GT_Tool",
-      "type": "item",
-      "actions": "RIGHT_CLICK_BLOCK",
+      "actions": [ "LEFT_CLICK_BLOCK", "RIGHT_CLICK_BLOCK" ],
       "isAdjacent": false,
       "flags": "MODIFY"
     },

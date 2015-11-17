@@ -4,18 +4,10 @@
     {
       "class": "thaumcraft.common.items.wands.ItemWandCasting",
       "type": "item",
-      "actions": "RIGHT_CLICK_BLOCK",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
       "isAdjacent": false,
-      "flags": "MODIFY",
+      "flags": [ "MODIFY", "USAGE" ],
       "range": 30
-    },
-    {
-      "class": "thaumcraft.common.items.wands.ItemWandCasting",
-      "type": "item",
-      "actions": "RIGHT_CLICK_AIR",
-      "isAdjacent": false,
-      "flags": "USAGE",
-      "range": 20
     },
     {
       "class": "thaumcraft.common.entities.projectile.EntityAlumentum",
@@ -25,10 +17,6 @@
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
           "type": "METHOD"
         }
       ],
@@ -43,10 +31,6 @@
         {
           "element": "func_85052_h",
           "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 15
@@ -60,10 +44,6 @@
         {
           "element": "func_85052_h",
           "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 15
@@ -72,31 +52,10 @@
       "class": "thaumcraft.common.entities.projectile.EntityEmber",
       "type": "entity",
       "actions": "TRACKED",
-      "flags": "MODIFY",
+      "flags": [ "MODIFY", "PVP" ],
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
-        }
-      ],
-      "range": 15
-    },
-    {
-      "class": "thaumcraft.common.entities.projectile.EntityEmber",
-      "type": "entity",
-      "actions": "TRACKED",
-      "flags": "PVP",
-      "owner": [
-        {
-          "element": "func_85052_h",
-          "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
           "type": "METHOD"
         }
       ],
@@ -111,10 +70,6 @@
         {
           "element": "func_85052_h",
           "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 15
@@ -127,10 +82,6 @@
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
           "type": "METHOD"
         }
       ],
@@ -145,10 +96,6 @@
         {
           "element": "func_85052_h",
           "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 15
@@ -161,10 +108,6 @@
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
           "type": "METHOD"
         }
       ],
@@ -179,10 +122,6 @@
         {
           "element": "func_85052_h",
           "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 15
@@ -196,10 +135,6 @@
         {
           "element": "func_85052_h",
           "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 15
@@ -212,4 +147,3 @@
     }
   ]
 }
-

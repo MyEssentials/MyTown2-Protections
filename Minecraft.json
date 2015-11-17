@@ -1,12 +1,6 @@
 {
   "modid": "Minecraft",
   "segments": [
-{
-      "class": "net.minecraft.item.ItemBucket",
-      "type": "item",
-      "actions": "RIGHT_CLICK_BLOCK",
-      "flags": "MODIFY"
-    },
     {
       "class": "net.minecraft.block.BlockButton",
       "type": "block",
@@ -145,10 +139,10 @@
       "class": "net.minecraft.entity.projectile.EntityArrow",
       "type": "entity",
       "actions": "TRACKED",
-      "flags": "PVP",
+      "flags": [ "PVP", "PVE" ],
       "owner": [
         {
-          "element": "field_70235_a",
+          "element": "field_70250_c",
           "type": "FIELD"
         }
       ],
@@ -183,15 +177,8 @@
     {
       "class": "net.minecraft.item.ItemMonsterPlacer",
       "type": "item",
-      "actions": "RIGHT_CLICK_BLOCK",
+      "actions": [ "RIGHT_CLICK_ENTITY", "RIGHT_CLICK_BLOCK" ],
       "isAdjacent": true,
-      "flags": "USAGE"
-    },
-    {
-      "class": "net.minecraft.item.ItemMonsterPlacer",
-      "type": "item",
-      "actions": "RIGHT_CLICK_ENTITY",
-      "isAdjacent": false,
       "flags": "USAGE"
     },
     {
@@ -220,6 +207,19 @@
       "type": "entity",
       "actions": "PROTECT",
       "flags": "ACCESS"
+    },
+    {
+      "class": "net.minecraft.item.ItemLead",
+      "type": "item",
+      "actions": ["RIGHT_CLICK_ENTITY", "RIGHT_CLICK_BLOCK"],
+      "isAdjacent": false,
+      "flags": "USAGE"
+    },
+    {
+      "class": "net.minecraft.entity.EntityLeashKnot",
+      "type": "entity",
+      "actions": "PROTECT",
+      "flags": "USAGE"
     }
   ]
 }

@@ -17,10 +17,6 @@
         {
           "element": "func_85052_h",
           "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 5
@@ -37,6 +33,13 @@
       "type": "item",
       "actions": "RIGHT_CLICK_BLOCK",
       "isAdjacent": false,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "cofh.thermalexpansion.item.tool.ItemIgniter",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_ENTITY" ],
+      "isAdjacent": true,
       "flags": "MODIFY"
     }
   ]

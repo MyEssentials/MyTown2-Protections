@@ -4,15 +4,7 @@
     {
       "class": "twilightforest.item.ItemTF",
       "type": "item",
-      "actions": "RIGHT_CLICK_AIR",
-      "isAdjacent": false,
-      "flags": "USAGE",
-      "range": 10
-    },
-    {
-      "class": "twilightforest.item.ItemTF",
-      "type": "item",
-      "actions": "RIGHT_CLICK_BLOCK",
+      "actions": [ "RIGHT_CLICK_AIR", "RIGHT_CLICK_BLOCK" ],
       "isAdjacent": false,
       "flags": "USAGE",
       "range": 10
@@ -33,10 +25,6 @@
         {
           "element": "func_85052_h",
           "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 5
@@ -50,10 +38,6 @@
         {
           "element": "func_85052_h",
           "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
-          "type": "METHOD"
         }
       ],
       "range": 5
@@ -66,10 +50,6 @@
       "owner": [
         {
           "element": "func_85052_h",
-          "type": "METHOD"
-        },
-        {
-          "element": "func_70005_c_",
           "type": "METHOD"
         }
       ],
