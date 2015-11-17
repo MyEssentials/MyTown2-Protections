@@ -1,0 +1,11 @@
+{
+  "modid": "GraveStone",
+  "segments": [
+    {
+      "class": "gravestone.block.BlockGSGraveStone",
+      "type": "specialBlock",
+      "meta": -1,
+      "isAlwaysBreakable": true
+    },
+  ]
+}
