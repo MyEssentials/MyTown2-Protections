@@ -1,0 +1,19 @@
+{
+  "modid": "gendustry",
+  "segments": [
+    {
+      "class": "net.bdew.gendustry.machines.apiary.BlockApiary$",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.bdew.gendustry.machines.BaseMachineBlock",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}
