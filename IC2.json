@@ -60,6 +60,27 @@
       "range": 20
     },
     {
+      "class": "ic2.core.item.tool.PlasmaLauncher",
+      "type": "item",
+      "actions": "RIGHT_CLICK_AIR",
+      "isAdjacent": false,
+      "flags": "EXPLOSIONS",
+      "range": 20
+    },
+    {
+      "class": "ic2.core.item.tool.EntityParticle",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "owner",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
+    },
+    {
       "class": "ic2.core.item.ItemIC2",
       "type": "item",
       "actions": "RIGHT_CLICK_BLOCK",
