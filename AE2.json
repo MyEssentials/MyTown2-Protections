@@ -25,7 +25,7 @@
     {
       "class": "appeng.items.tools.powered.ToolMassCannon",
       "type": "item",
-      "actions": "RIGHT_CLICK_AIR",
+      "actions": [ "RIGHT_CLICK_AIR", "RIGHT_CLICK_BLOCK" ],
       "isAdjacent": false,
       "flags": "MODIFY",
       "range": 32
