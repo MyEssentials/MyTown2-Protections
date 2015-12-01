@@ -110,7 +110,7 @@
       "flags": "ACCESS"
     },
     {
-      "class": "net.minecraft.entity.monster.EntityMob",
+      "class": "net.minecraft.entity.monster.IMob",
       "type": "entity",
       "actions": "TRACKED",
       "flags": "MOBS"
