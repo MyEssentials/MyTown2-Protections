@@ -7,6 +7,13 @@
       "actions": "RIGHT_CLICK",
       "meta": -1,
       "flags": "ACCESS"
+    },
+    {
+      "class": "com.InfinityRaider.AgriCraft.blocks.BlockAgriCraft",
+      "type": "block",
+      "actions": "LEFT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
     }
   ]
 }
