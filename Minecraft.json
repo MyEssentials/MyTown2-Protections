@@ -244,6 +244,12 @@
       "type": "entity",
       "actions": "PROTECT",
       "flags": "USAGE"
+    },
+    {
+      "class": "net.minecraft.entity.projectile.EntitySmallFireball",
+      "type": "entity",
+      "actions": "IMPACT",
+      "flags": [ "PVE", "PVP", "MODIFY" ]
     }
   ]
 }
