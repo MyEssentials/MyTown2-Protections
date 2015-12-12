@@ -25,6 +25,12 @@
       "meta": -1,
       "flags": "ACTIVATE",
       "priority": "HIGH"
+    },
+    {
+      "class": "com.bioxx.tfc.Entities.EntityStand",
+      "type": "entity",
+      "actions": "PROTECT",
+      "flags": "ACCESS"
     }
   ]
 }

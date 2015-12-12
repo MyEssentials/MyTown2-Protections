@@ -18,6 +18,14 @@
       "priority": "HIGH"
     },
     {
+      "class": "com.carpentersblocks.block.BlockCarpentersGarageDoor",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACTIVATE",
+      "priority": "HIGH"
+    },
+    {
       "class": "com.carpentersblocks.block.BlockCarpentersLever",
       "type": "block",
       "actions": "RIGHT_CLICK",
@@ -40,6 +48,20 @@
       "meta": -1,
       "flags": "ACTIVATE",
       "priority": "HIGH"
+    },
+    {
+      "class": "com.carpentersblocks.item.ItemCarpentersChisel",
+      "type": "item",
+      "actions": [ "LEFT_CLICK_BLOCK", "RIGHT_CLICK_BLOCK" ],
+      "isAdjacent": false,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "com.carpentersblocks.item.ItemCarpentersHammer",
+      "type": "item",
+      "actions": [ "LEFT_CLICK_BLOCK", "RIGHT_CLICK_BLOCK" ],
+      "isAdjacent": false,
+      "flags": "MODIFY"
     }
   ]
 }

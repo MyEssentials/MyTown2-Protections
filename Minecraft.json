@@ -110,7 +110,7 @@
       "flags": "ACCESS"
     },
     {
-      "class": "net.minecraft.entity.monster.EntityMob",
+      "class": "net.minecraft.entity.monster.IMob",
       "type": "entity",
       "actions": "TRACKED",
       "flags": "MOBS"
@@ -119,7 +119,44 @@
       "class": "net.minecraft.entity.EntityAgeable",
       "type": "entity",
       "actions": "PROTECT",
-      "flags": "PVE"
+      "flags": "PVE",
+      "priority": "LOW"
+    },
+    {
+      "class": "net.minecraft.entity.passive.EntityHorse",
+      "type": "entity",
+      "actions": "PROTECT",
+      "flags": "PVE",
+      "owner": [
+        {
+          "element": "func_152119_ch",
+          "type": "METHOD"
+        }
+      ]
+    },
+    {
+      "class": "net.minecraft.entity.passive.EntityOcelot",
+      "type": "entity",
+      "actions": "PROTECT",
+      "flags": "PVE",
+      "owner": [
+        {
+          "element": "func_152113_b",
+          "type": "METHOD"
+        }
+      ]
+    },
+    {
+      "class": "net.minecraft.entity.passive.EntityWolf",
+      "type": "entity",
+      "actions": [ "PVP", "PROTECT" ],
+      "flags": "PVE",
+      "owner": [
+        {
+          "element": "func_152113_b",
+          "type": "METHOD"
+        }
+      ]
     },
     {
       "class": "net.minecraft.entity.monster.EntityCreeper",
@@ -131,19 +168,6 @@
         {
           "element": "func_70832_p",
           "type": "METHOD"
-        }
-      ],
-      "range": 5
-    },
-    {
-      "class": "net.minecraft.entity.projectile.EntityArrow",
-      "type": "entity",
-      "actions": "TRACKED",
-      "flags": [ "PVP", "PVE" ],
-      "owner": [
-        {
-          "element": "field_70250_c",
-          "type": "FIELD"
         }
       ],
       "range": 5
@@ -185,7 +209,7 @@
       "class": "net.minecraft.item.ItemShears",
       "type": "item",
       "actions": "RIGHT_CLICK_ENTITY",
-      "isnAdjacent": false,
+      "isAdjacent": false,
       "flags": "USAGE"
     },
       {
@@ -220,6 +244,12 @@
       "type": "entity",
       "actions": "PROTECT",
       "flags": "USAGE"
+    },
+    {
+      "class": "net.minecraft.entity.projectile.EntitySmallFireball",
+      "type": "entity",
+      "actions": "IMPACT",
+      "flags": [ "PVE", "PVP", "MODIFY" ]
     }
   ]
 }
