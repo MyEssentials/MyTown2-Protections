@@ -4,7 +4,7 @@
     {
       "class": "cofh.core.block.BlockCoFHBase",
       "type": "block",
-      "actions": "RIGHT_CLICK",
+      "actions": [ "RIGHT_CLICK", "LEFT_CLICK" ],
       "meta": -1,
       "flags": "ACCESS"
     },
