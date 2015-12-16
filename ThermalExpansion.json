@@ -22,14 +22,7 @@
       "range": 5
     },
     {
-      "class": "cofh.thermalexpansion.item.tool.ItemWrench",
-      "type": "item",
-      "actions": "RIGHT_CLICK_BLOCK",
-      "isAdjacent": false,
-      "flags": "MODIFY"
-    },
-    {
-      "class": "cofh.thermalexpansion.item.tool.ItemWrenchBattle",
+      "class": "cofh.thermalexpansion.item.tool.ItemToolBase",
       "type": "item",
       "actions": "RIGHT_CLICK_BLOCK",
       "isAdjacent": false,
