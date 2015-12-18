@@ -1,5 +1,5 @@
 {
-  "modid": "MrTJPCoreMod",
+  "modid": "ProjRed|Core",
   "segments": [
     {
       "class": "mrtjp.projectred.core.ItemScrewdriver",
