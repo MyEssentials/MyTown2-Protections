@@ -145,13 +145,21 @@
       "actions": "TRACKED",
       "flags": "MOBS"
     },
-	{
+    {
       "class": "thaumcraft.common.blocks.BlockWoodenDeviceItem",
       "type": "item",
       "actions": "RIGHT_CLICK_BLOCK",
       "isAdjacent": false,
       "flags": "MODIFY",
       "range": 64
+    },
+    {
+      "class": "thaumcraft.common.items.equipment.ItemElementalShovel",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY",
+      "range": 1
     }
   ]
 }
