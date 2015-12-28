@@ -1,0 +1,27 @@
+{
+  "modid": "Eln",
+  "segments": [
+    {
+      "class": "mods.eln.ghost.GhostBlock",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+	  "meta": -1,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "mods.eln.node.six.SixNodeBlock",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+	  "meta": -1,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "mods.eln.node.six.SixNodeItem",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY",
+      "range": 1
+    },
+  ]
+}
