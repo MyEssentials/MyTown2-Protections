@@ -156,9 +156,18 @@
     {
       "class": "thaumcraft.common.items.equipment.ItemElementalShovel",
       "type": "item",
-      "actions": "RIGHT_CLICK_BLOCK",
+      "actions": [ "LEFT_CLICK_BLOCK", "RIGHT_CLICK_BLOCK"],
       "isAdjacent": false,
       "flags": "MODIFY",
+      "clientUpdate": {
+        "coords":[
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        1
+       ]},
       "range": 1
     }
   ]
