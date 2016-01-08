@@ -149,6 +149,7 @@
       "class": "thaumcraft.common.blocks.BlockWoodenDeviceItem",
       "type": "item",
       "actions": "RIGHT_CLICK_BLOCK",
+      "damage": 4,
       "isAdjacent": false,
       "flags": "MODIFY",
       "range": 64
