@@ -40,6 +40,37 @@
       "isAdjacent": true,
       "flags": "USAGE",
       "range": 15
+    },    
+    {
+      "class": "vazkii.botania.common.item.rod.ItemSmeltRod",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "USAGE"
+    },    
+    {
+      "class": "vazkii.botania.common.item.rod.ItemTerraformRod",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": true,
+      "flags": "USAGE",
+      "range": 17
+    },    
+    {
+      "class": "vazkii.botania.common.item.rod.ItemFireRod",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": true,
+      "flags": [ "PVP", "PVE" ],
+      "range": 6
+    },    
+    {
+      "class": "vazkii.botania.common.item.rod.ItemExchangeRod",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": true,
+      "flags": "USAGE",
+      "range": 3
     }
   ]
 }
