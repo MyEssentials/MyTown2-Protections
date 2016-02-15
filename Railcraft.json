@@ -55,7 +55,7 @@
     {
       "class": "mods.railcraft.common.items.ItemCrowbar",
       "type": "item",
-      "actions": "RIGHT_CLICK_ENTITY",
+      "actions": [ "RIGHT_CLICK_ENTITY", "RIGHT_CLICK_BLOCK" ],
       "flags": "MODIFY"
     }
   ]
