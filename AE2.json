@@ -43,6 +43,13 @@
       "actions": "RIGHT_CLICK_BLOCK",
       "isAdjacent": false,
       "flags": "MODIFY"
+    },
+    {
+      "class": "appeng.block.grindstone.BlockGrinder",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "isAdjacent": false,
+      "flags": "ACCESS"
     }
   ]
 }
