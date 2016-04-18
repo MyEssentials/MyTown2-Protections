@@ -2,6 +2,13 @@
   "modid": "appliedenergistics2-core",
   "segments": [
     {
+      "class": "appeng.block.AEBaseBlock",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
       "class": "appeng.items.tools.quartz.ToolQuartzWrench",
       "type": "item",
       "actions": "RIGHT_CLICK_BLOCK",
