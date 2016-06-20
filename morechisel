@@ -1,0 +1,13 @@
+{
+  "modid": "morechisels",
+  "name": "More Chisels",
+  "segments": [
+    {
+      "class": "tehnut.morechisels.item.ItemChiselBase",
+      "type": "item",
+      "actions": "LEFT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
+    }
+  ]
+}
