@@ -8,6 +8,30 @@
       "actions": "LEFT_CLICK_BLOCK",
       "isAdjacent": false,
       "flags": "MODIFY"
+    },
+    {
+      "class": "team.chisel.item.ItemCloudInABottle",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": true,
+      "flags": "USAGE",
+      "range": 64
+    },
+    {
+      "class": "team.chisel.item.ItemSmashingRock",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": false,
+      "flags": "USAGE",
+      "range": 64
+    },
+    {
+      "class": "team.chisel.item.ItemBallOMoss",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": false,
+      "flags": "USAGE",
+      "range": 64
     }
   ]
 }
