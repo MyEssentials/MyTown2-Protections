@@ -13,6 +13,14 @@
       "actions": "RIGHT_CLICK",
       "meta": -1,
       "flags": "ACCESS"
+    },
+    {
+      "class": "com.brandon3055.draconicevolution.common.items.weapons.DraconicBow",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_AIR", "RIGHT_CLICK_BLOCK" ],
+      "isAdjacent": false,
+      "flags": "PVP",
+      "range": 16
     }
   ]
 }
