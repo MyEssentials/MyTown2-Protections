@@ -58,6 +58,30 @@
         1      
        ]},
       "onAdjacent": false
-    }
+    },
+    {
+      "class": "tconstruct.items.tools.Scythe",
+      "type": "item",
+      "actions": "BREAK_BLOCK",
+      "flags": "MODIFY",
+      "clientUpdate": {
+        "coords":[
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        1      
+       ]},
+      "onAdjacent": false
+    },
+    {
+      "class": "tconstruct.library.weaponry.ProjectileWeapon",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": false,
+      "flags": "USAGE",
+      "range": 32
+	}
   ]
 }
