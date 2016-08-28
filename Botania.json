@@ -54,6 +54,22 @@
       "actions": "RIGHT_CLICK_BLOCK",
       "isAdjacent": false,
       "flags": "USAGE"
+    },
+    {
+      "class": "vazkii.botania.common.item.ItemManaGun",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": false,
+      "flags": "USAGE",
+      "range": 128
+    },
+    {
+      "class": "vazkii.botania.common.item.ItemLaputaShard",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": false,
+      "flags": "USAGE",
+      "range": 64
     }
   ]
 }
