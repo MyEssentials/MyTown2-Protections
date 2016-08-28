@@ -28,6 +28,13 @@
       "actions": "RIGHT_CLICK_BLOCK",
       "isAdjacent": false,
       "flags": "MODIFY"
+    },
+    {
+      "class": "crazypants.enderio.machine.vacuum.BlockVacuumChest",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
     }
   ]
 }
