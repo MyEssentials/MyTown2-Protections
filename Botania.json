@@ -40,6 +40,20 @@
       "isAdjacent": true,
       "flags": "USAGE",
       "range": 15
+    },
+    {
+      "class": "vazkii.botania.common.entity.EntitySpark",
+      "type": "entity",
+      "actions": "PROTECT",
+      "isAdjacent": true,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "vazkii.botania.common.item.ItemManaMirror",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "USAGE"
     }
   ]
 }
