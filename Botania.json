@@ -70,6 +70,14 @@
       "isAdjacent": false,
       "flags": "USAGE",
       "range": 64
-    }
+    },
+    {
+      "class": "vazkii.botania.common.item.equipment.tool.terrasteel.ItemTerraPick",
+      "type": "item",
+      "actions": "BREAK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY",
+      "range": 8
+	  }
   ]
 }
