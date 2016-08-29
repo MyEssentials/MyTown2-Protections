@@ -1,0 +1,46 @@
+{
+  "modid": "ImmersiveEngineering",
+  "segments": [
+    {
+      "class": "blusunrize.immersiveengineering.common.items.ItemChemthrower",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": false,
+      "flags": "PVP",
+      "range": 16
+    },
+    {
+      "class": "blusunrize.immersiveengineering.common.items.ItemRailgun",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": false,
+      "flags": "PVP",
+      "range": 16
+    },
+    {
+      "class": "blusunrize.immersiveengineering.common.items.ItemRevolver",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": false,
+      "flags": "PVP",
+      "range": 16
+    },
+    {
+      "class": "blusunrize.immersiveengineering.common.blocks.metal.BlockMetalDevices",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS",
+      "clientUpdate": {
+        "coords": [
+          -1,
+          0,
+          -1,
+          1,
+          2,
+          1
+        ]
+	  }
+    }
+  ]
+}
