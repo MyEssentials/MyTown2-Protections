@@ -1,0 +1,30 @@
+{
+  "modid": "malisisdoors",
+  "segments": [
+    {
+      "class": "net.malisis.core.block.MalisisBlock",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "flags": "ACTIVATE"
+    },
+    {
+      "class": "net.malisis.doors.door.block.BigDoor",
+      "type": "block",
+      "actions": "ANY_CLICK",
+      "flags": "ACTIVATE"
+    },
+    {
+      "class": "net.malisis.doors.block.BlockMixer",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "flags": "ACTIVATE"
+    },
+    {
+      "class": "net.malisis.doors.door.item.ForcefieldItem",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "USAGE"
+    }
+  ]
+}
