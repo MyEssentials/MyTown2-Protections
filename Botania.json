@@ -109,6 +109,12 @@
       "isAdjacent": true,
       "flags": "USAGE",
       "range": 9
-    }
+    },
+	  {
+      "class": "vazkii.botania.common.entity.EntityFlameRing",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": [ "PVE", "PVP" ]
+	  }
   ]
 }
