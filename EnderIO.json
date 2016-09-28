@@ -35,6 +35,13 @@
       "actions": "RIGHT_CLICK",
       "meta": -1,
       "flags": "ACCESS"
+    },
+    {
+      "class": "crazypants.enderio.item.ItemSoulVessel",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_ENTITY" ],
+      "isAdjacent": false,
+      "flags": "MODIFY"
     }
   ]
 }
