@@ -1,0 +1,19 @@
+{
+  "modid": "atum",
+  "segments": [
+    {
+      "class": "com.teammetallurgy.atum.entity.EntityPharaoh",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "PVP",
+	    "range": 64
+    },
+    {
+      "class": "com.teammetallurgy.atum.entity.arrow.EntityArrowExplosive",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+	  "range": 4
+    }
+  ]
+}
