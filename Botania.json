@@ -115,6 +115,14 @@
       "type": "entity",
       "actions": "TRACKED",
       "flags": [ "PVE", "PVP" ]
-	  }
+    },
+    {
+      "class": "vazkii.botania.common.item.lens.ItemLens",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR", "RIGHT_CLICK_ENTITY" ],
+      "isAdjacent": true,
+      "flags": "MODIFY",
+      "range": 64
+    }
   ]
 }
