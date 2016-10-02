@@ -26,13 +26,22 @@
       "type": "item",
       "actions": "RIGHT_CLICK_BLOCK",
       "isAdjacent": false,
-      "flags": "MODIFY"
+      "flags": "MODIFY",
+      "range": 32
     },
     {
       "class": "cofh.thermalexpansion.item.tool.ItemIgniter",
       "type": "item",
       "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_ENTITY" ],
       "isAdjacent": true,
+      "flags": "MODIFY",
+      "range": 32      
+    },
+    {
+      "class": "cofh.thermalexpansion.item.tool.ItemWrenchBattle",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
       "flags": "MODIFY"
     }
   ]
