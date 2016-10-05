@@ -57,6 +57,18 @@
         }
       ],
       "range": 32
+    },
+    {
+      "class": "mekanism.common.entity.EntityRobit",
+      "type": "entity",
+      "actions": "PROTECT",
+      "flags": "PVE",
+      "owner": [
+        {
+          "element": "func_152113_b",
+          "type": "METHOD"
+        }
+      ]
     }
   ]
 }
