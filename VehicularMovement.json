@@ -1,0 +1,18 @@
+{
+  "modid": "VehicularMovement",
+  "segments": [
+    {
+      "class": "com.goldensilver853.vehicles.entity.car.BlackCar",
+      "type": "entity",
+      "actions": "PROTECT",
+      "flags": "PVE",
+	  "priority": "HIGH",
+      "owner": [
+        {
+          "element": "func_152113_b",
+          "type": "METHOD"
+        }
+      ]
+    }
+  ]
+}
