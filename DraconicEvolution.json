@@ -13,6 +13,89 @@
       "actions": "RIGHT_CLICK",
       "meta": -1,
       "flags": "ACCESS"
+    },
+    {
+      "class": "com.brandon3055.draconicevolution.common.items.weapons.DraconicBow",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_AIR", "RIGHT_CLICK_BLOCK" ],
+      "isAdjacent": false,
+      "flags": "PVP",
+      "range": 16
+    },
+    {
+      "class": "com.brandon3055.draconicevolution.common.blocks.PlacedItem",
+      "type": "block",
+      "actions": [ "RIGHT_CLICK", "LEFT_CLICK" ],
+      "meta": -1,
+      "clientUpdate": {
+        "coords":[
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        1
+       ]},
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.brandon3055.draconicevolution.common.blocks.multiblock.InvisibleMultiblock",
+      "type": "block",
+      "actions": [ "RIGHT_CLICK", "LEFT_CLICK" ],
+      "meta": -1,
+      "clientUpdate": {
+        "coords":[
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        1
+       ]},
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.brandon3055.draconicevolution.common.items.tools.baseclasses.ToolBase",
+      "type": "item",
+      "actions": [ "LEFT_CLICK", "LEFT_CLICK_ENTITY" ],
+      "flags": "PVP"
+    },
+    {
+      "class": "com.brandon3055.draconicevolution.common.blocks.multiblock.ReactorCore",
+      "type": "block",
+      "actions": [ "RIGHT_CLICK", "LEFT_CLICK" ],
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.brandon3055.draconicevolution.common.blocks.multiblock.ReactorEnergyInjector",
+      "type": "block",
+      "actions": [ "RIGHT_CLICK", "LEFT_CLICK" ],
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.brandon3055.draconicevolution.common.blocks.multiblock.ReactorStabilizer",
+      "type": "block",
+      "actions": [ "RIGHT_CLICK", "LEFT_CLICK" ],
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.brandon3055.draconicevolution.common.blocks.multiblock.DislocatorReceptacle",
+      "type": "block",
+      "actions": [ "RIGHT_CLICK", "LEFT_CLICK" ],
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.brandon3055.draconicevolution.common.blocks.multiblock.EnergyPylon",
+      "type": "block",
+      "actions": [ "RIGHT_CLICK", "LEFT_CLICK" ],
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.brandon3055.draconicevolution.common.blocks.machine.FlowGate",
+      "type": "block",
+      "actions": [ "RIGHT_CLICK", "LEFT_CLICK" ],
+	  "meta": -1,
+      "flags": "ACCESS"
     }
   ]
 }

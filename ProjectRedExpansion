@@ -1,0 +1,34 @@
+{
+  "modid": "ProjRed|Expansion",
+  "segments": [
+    {
+      "class": "mrtjp.projectred.expansion.TileFrameMotor",
+      "type": "tileEntity",
+      "retainsOwner": true,
+      "flags": "MODIFY",
+	  "range": 64
+    },
+    {
+      "class": "mrtjp.projectred.expansion.TileFrameActuator",
+      "type": "tileEntity",
+      "retainsOwner": true,
+      "flags": "MODIFY",
+	  "range": 64
+    },
+    {
+      "class": "mrtjp.projectred.expansion.BlockMachine",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+	  "isAdjacent": true,
+      "flags": "MODIFY",
+      "condition": "itemDamage == 8",
+      "itemDamage": [
+        {
+          "element": "itemDamage",
+          "type": "FIELD"
+        }
+      ],
+	  "range": 64
+    }
+  ]
+}

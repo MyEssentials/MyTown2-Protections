@@ -40,6 +40,89 @@
       "isAdjacent": true,
       "flags": "USAGE",
       "range": 15
+    },
+    {
+      "class": "vazkii.botania.common.entity.EntitySpark",
+      "type": "entity",
+      "actions": "PROTECT",
+      "isAdjacent": true,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "vazkii.botania.common.item.ItemManaMirror",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "USAGE"
+    },
+    {
+      "class": "vazkii.botania.common.item.ItemManaGun",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": false,
+      "flags": "USAGE",
+      "range": 128
+    },
+    {
+      "class": "vazkii.botania.common.item.ItemLaputaShard",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": false,
+      "flags": "USAGE",
+      "range": 64
+    },
+    {
+      "class": "vazkii.botania.common.item.equipment.tool.terrasteel.ItemTerraPick",
+      "type": "item",
+      "actions": "BREAK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY",
+      "range": 8
+    },
+    {
+      "class": "vazkii.botania.common.item.rod.ItemSmeltRod",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": false,
+      "flags": "USAGE"
+    },    
+    {
+      "class": "vazkii.botania.common.item.rod.ItemTerraformRod",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": true,
+      "flags": "USAGE",
+      "range": 17
+    },    
+    {
+      "class": "vazkii.botania.common.item.rod.ItemFireRod",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": true,
+      "flags": [ "PVP", "PVE" ],
+      "range": 6
+    },    
+    {
+      "class": "vazkii.botania.common.item.rod.ItemExchangeRod",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": true,
+      "flags": "USAGE",
+      "range": 9
+    },
+	  {
+      "class": "vazkii.botania.common.entity.EntityFlameRing",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": [ "PVE", "PVP" ]
+    },
+    {
+      "class": "vazkii.botania.common.item.lens.ItemLens",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR", "RIGHT_CLICK_ENTITY" ],
+      "isAdjacent": true,
+      "flags": "MODIFY",
+      "range": 64
     }
   ]
 }

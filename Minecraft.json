@@ -250,6 +250,12 @@
       "type": "entity",
       "actions": "IMPACT",
       "flags": [ "PVE", "PVP", "MODIFY" ]
+    },
+    {
+      "class": "net.minecraft.entity.passive.IAnimals",
+      "type": "entity",
+      "actions": "PROTECT",
+      "flags": "PVE"
     }
   ]
 }

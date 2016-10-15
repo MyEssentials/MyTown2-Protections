@@ -20,6 +20,12 @@
         }
       ],
       "range": 10
+    },
+    {
+      "class": "com.emoniph.witchery.entity.EntityVillageGuard",
+      "type": "entity",
+      "actions": "PROTECT",
+      "flags": "PVE"
     }
   ]
 }

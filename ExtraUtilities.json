@@ -141,6 +141,13 @@
       "actions": "RIGHT_CLICK_BLOCK",
       "isAdjacent": false,
       "flags": "MODIFY"
+    },
+    {
+      "class": "com.rwtema.extrautils.item.ItemGoldenLasso",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_ENTITY" ],
+      "isAdjacent": false,
+      "flags": "MODIFY"
     }
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "modid": "Natura",
+  "segments": [
+    {
+      "class": "mods.natura.blocks.crops.BerryBush",
+      "type": "block",
+      "actions": [ "RIGHT_CLICK", "LEFT_CLICK" ],
+      "meta": -1,
+      "flags": "MODIFY"
+    }
+  ]
+}

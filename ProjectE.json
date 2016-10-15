@@ -65,6 +65,69 @@
         }
       ],
       "range": 16
+    },
+    {
+      "class": "moze_intel.projecte.gameObjs.blocks.Condenser",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "moze_intel.projecte.gameObjs.blocks.CondenserMK2",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "moze_intel.projecte.gameObjs.blocks.Pedestal",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "moze_intel.projecte.gameObjs.blocks.MatterFurnace",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "moze_intel.projecte.gameObjs.blocks.Collector",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "moze_intel.projecte.gameObjs.blocks.Relay",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "moze_intel.projecte.gameObjs.blocks.AlchemicalChest",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "moze_intel.projecte.gameObjs.blocks.TransmutationStone",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "moze_intel.projecte.gameObjs.blocks.Pedestal",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
     }
   ]
 }

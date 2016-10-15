@@ -23,40 +23,18 @@
       "flags": "ACCESS"
     },
     {
-      "class": "mekanism.common.item.ItemBlockMachine",
-      "type": "item",
-      "actions": "RIGHT_CLICK_BLOCK",
-      "isAdjacent": false,
-      "clientUpdate": {
-        "coords": [
-          -1,
-          0,
-          -1,
-          1,
-          2,
-          1
-        ],
-        "directional": false
-      },
-      "flags": "MODIFY",
-      "condition": "itemDamage == 4 AND blockName == 'tile.MachineBlock'",
-      "itemDamage": [
-        {
-          "element": "itemDamage",
-          "type": "FIELD"
-        }
-      ],
-      "blockName": [
-        {
-          "element": "getItem",
-          "type": "METHOD"
-        },
-        {
-          "element": "getUnlocalizedName",
-          "type": "METHOD"
-        }
-      ],
-      "range": 32
+      "class": "mekanism.common.block.BlockBasic",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "mekanism.common.block.BlockMachine",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
     }
   ]
 }

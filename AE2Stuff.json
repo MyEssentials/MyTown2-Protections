@@ -1,0 +1,33 @@
+{
+  "modid": "ae2stuff",
+  "segments": [
+    {
+      "class": "net.bdew.ae2stuff.machines.inscriber.BlockInscriber$",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.bdew.ae2stuff.machines.encoder.BlockEncoder$",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.bdew.ae2stuff.machines.grower.BlockGrower$",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.bdew.ae2stuff.machines.wireless.BlockWireless$",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}
