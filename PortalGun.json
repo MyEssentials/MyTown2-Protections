@@ -1,0 +1,19 @@
+{
+  "modid": "portalgun",
+"segments": [
+    {
+      "class": "portalgun.common.entity.EntityBullet",
+      "type": "entity",
+      "actions": "IMPACT",
+      "flags": [ "PVP", "PVE" ],
+      "range": 6
+    },
+	  {
+      "class": "portalgun.item.ItemTurret",
+      "type": "item",
+      "actions": ["RIGHT_CLICK_AIR", "RIGHT_CLICK_BLOCK"],
+      "flags": ["PVP", "PVE"],
+      "range": 12
+    }
+  ]
+}
