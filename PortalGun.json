@@ -9,7 +9,7 @@
       "range": 6
     },
 	  {
-      "class": "portalgun.item.ItemTurret",
+      "class": "portalgun.common.item.ItemTurret",
       "type": "item",
       "actions": ["RIGHT_CLICK_AIR", "RIGHT_CLICK_BLOCK"],
       "flags": ["PVP", "PVE"],
