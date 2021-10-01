@@ -136,6 +136,12 @@
       "isAdjacent": true,
       "flags": "MODIFY",
       "range": 64
-    }
+     },
+     {
+       "class": "vazkii.botania.common.item.ItemTwigWand",
+       "type": "item",
+       "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR"],
+       "flags": "MODIFY"
+     }
   ]
 }
