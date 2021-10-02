@@ -2,6 +2,19 @@
   "modid": "Mekanism",
   "segments": [
     {
+      "class": "mekanism.common.entity.EntityFlame",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+	  "range": 16
+	  "owner": [
+        {
+          "element": "owner",
+          "type": "FIELD"
+        }
+      ],
+    },
+    {
       "class": "mekanism.common.item.ItemAtomicDisassembler",
       "type": "item",
       "actions": "LEFT_CLICK_BLOCK",
