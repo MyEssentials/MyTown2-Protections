@@ -9,7 +9,21 @@
       "flags": "ACCESS"
     },
     {
-      "class": "net.bdew.gendustry.machines.BaseMachineBlock",
+      "class": "net.bdew.gendustry.machines.mproducer.BlockMutagenProducer$",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.bdew.gendustry.machines.mproducer.BlockMutatron$",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.bdew.gendustry.machines.imprinter.BlockImprinter$",
       "type": "block",
       "actions": "RIGHT_CLICK",
       "meta": -1,
