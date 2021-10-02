@@ -1,0 +1,18 @@
+{
+  "modid": "pneumaticCraft",
+  "segments": [
+    {
+      "class": "pneumaticCraft.common.entity.projectile.EntityVortex",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "onImpact",
+          "type": "METHOD"
+        }
+      ],
+      "range": 24
+    }
+  ]
+}
