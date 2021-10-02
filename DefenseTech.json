@@ -1,0 +1,31 @@
+{
+  "modid": "DefenseTech",
+  "segments": [
+    {
+      "class": "defense.common.entity.EntityMissile",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "getLauncher",
+          "type": "METHOD"
+        }
+      ],
+      "range": 32
+    },
+    {
+      "class": "defense.common.entity.EntityGrenade",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "thrower",
+          "type": "FIELD"
+        }
+      ],
+      "range": 16
+    }
+  ]
+}
