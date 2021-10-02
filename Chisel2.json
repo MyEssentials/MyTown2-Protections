@@ -23,6 +23,19 @@
       "range": 15
     },
     {
+      "class": "com.cricketcraft.chisel.entity.EntitySmashingRock",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "owner": [
+        {
+          "element": "func_85052_h",
+          "type": "METHOD"
+        }
+      ],
+      "range": 15
+    },
+    {
       "class": "com.cricketcraft.chisel.entity.EntityCloudInABottle",
       "type": "entity",
       "actions": "TRACKED",
