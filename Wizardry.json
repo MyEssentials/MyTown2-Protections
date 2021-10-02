@@ -1,4 +1,5 @@
-"modid": "wizardry",
+{
+  "modid": "wizardry",
   "segments": [
     {
       "class": "com.electroblob.wizardry.item.ItemWand",
