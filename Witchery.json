@@ -9,6 +9,13 @@
       "flags": "PVP"
     },
     {
+      "class": "com.emoniph.witchery.item.ItemGeneral",
+      "type": "item",
+      "actions": ["RIGHT_CLICK_BLOCK", "RIGHT_CLICK_ENTITY", "RIGHT_CLICK_AIR"],
+      "flags": "MODIFY",
+	  "range": 32
+    },
+    {
       "class": "com.emoniph.witchery.entity.EntityWitchProjectile",
       "type": "entity",
       "actions": "TRACKED",
