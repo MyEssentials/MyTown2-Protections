@@ -43,6 +43,19 @@
       "range": 8
     },
     {
+      "class": "twilightforest.entity.EntityTFChainBlock",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "owner": [
+        {
+          "element": "attachedTo",
+          "type": "FIELD"
+        }
+      ],
+      "range": 8
+    },
+    {
       "class": "twilightforest.entity.EntityTFMoonwormShot",
       "type": "entity",
       "actions": "TRACKED",

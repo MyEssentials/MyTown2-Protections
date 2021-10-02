@@ -25,7 +25,7 @@
       "class": "powercrystals.minefactoryreloaded.entity.EntityNeedle",
       "type": "entity",
       "actions": "TRACKED",
-      "flags": "MODIFY",
+      "flags": ["MODIFY","PVP"],
       "owner": [
         {
           "element": "_owner",
