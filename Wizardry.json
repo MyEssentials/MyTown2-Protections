@@ -1,0 +1,41 @@
+{
+  "modid": "wizardry",
+  "segments": [
+    {
+      "class": "com.electroblob.wizardry.item.ItemWand",
+      "type": "item",
+      "actions": "RIGHT_CLICK",
+      "flags": "PVP"
+    },
+	{
+      "class": "com.electroblob.wizardry.item.ItemSpellBook",
+      "type": "item",
+      "actions": "RIGHT_CLICK",
+      "flags": "PVP"
+    },
+	{
+      "class": "com.electroblob.wizardry.item.ItemScroll",
+      "type": "item",
+      "actions": "RIGHT_CLICK",
+      "flags": "PVP"
+    },
+	{
+      "class": "com.electroblob.wizardry.item.ItemSmokeBomb",
+      "type": "item",
+      "actions": "RIGHT_CLICK",
+      "flags": "PVP"
+    },
+    {
+      "class": "com.electroblob.wizardry.item.ItemFireBomb",
+      "type": "item",
+      "actions": "RIGHT_CLICK",
+      "flags": "PVP"
+    },
+    {
+      "class": "com.electroblob.wizardry.item.ItemPoisonBomb",
+      "type": "item",
+      "actions": "RIGHT_CLICK",
+      "flags": "PVP"
+    }
+  ]
+}
