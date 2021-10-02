@@ -1,0 +1,18 @@
+{
+  "modid": "quiverchevsky",
+  "segments": [
+    {
+      "class": "com.domochevsky.quiverbow.projectiles.OWR_Shot",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flag": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "func_70106_y",
+          "type": "METHOD"
+        }
+      ],
+      "range": 64
+    }
+  ]
+}
