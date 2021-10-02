@@ -7,7 +7,7 @@
       "actions": "TRACKED",
       "flags": "MODIFY",
 	  "range": 16
-	  "owner": [
+	  "owners": [
         {
           "element": "owner",
           "type": "FIELD"
