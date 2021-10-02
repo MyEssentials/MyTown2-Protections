@@ -1,0 +1,18 @@
+{
+  "modid": "abyssalcraft",
+  "segments": [
+    {
+      "class": "com.shinoow.abyssalcraft.common.entity.EntityODBPrimed",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSION",
+      "owner": [
+        {
+          "element": "getODBPlacedBy",
+          "type": "METHOD"
+        }
+      ],
+      "range": 18
+    }
+  ]
+}
