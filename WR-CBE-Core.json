@@ -1,0 +1,32 @@
+{
+  "modid": "WR-CBE|Core",
+  "segments": [
+    {
+      "class": "codechicken.wirelessredstone.addons.EntityREP",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": ["PVP", "PVE"],
+      "owner": [
+        {
+          "element": "shootingEntity",
+          "type": "FIELD"
+        }
+      ],
+      "range": 16
+    },
+	{
+      "class": "codechicken.wirelessredstone.addons.ItemREP",
+      "type": "item",
+      "actions": ["RIGHT_CLICK_AIR", "RIGHT_CLICK_BLOCK"],
+      "flags": ["PVP", "PVE"],
+      "range": 16
+    },
+	{
+      "class": "codechicken.wirelessredstone.addons.ItemWirelessSniffer",
+      "type": "item",
+      "actions": ["RIGHT_CLICK_AIR", "RIGHT_CLICK_BLOCK"],
+      "flags": "USAGE",
+      "range": 16
+    }
+  ]
+}
