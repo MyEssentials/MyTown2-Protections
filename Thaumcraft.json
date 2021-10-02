@@ -10,6 +10,14 @@
       "range": 30
     },
     {
+      "class": "thaumcraft.common.items.ItemBottleTaint",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": true,
+      "flags": [ "MODIFY", "USAGE" ],
+      "range": 16
+    },
+    {
       "class": "thaumcraft.common.entities.projectile.EntityAlumentum",
       "type": "entity",
       "actions": "TRACKED",

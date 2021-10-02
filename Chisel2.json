@@ -26,6 +26,7 @@
       "class": "com.cricketcraft.chisel.entity.EntitySmashingRock",
       "type": "entity",
       "actions": "TRACKED",
+      "isAdjacent": false,
       "flags": "MODIFY",
       "owner": [
         {
@@ -33,7 +34,7 @@
           "type": "METHOD"
         }
       ],
-      "range": 15
+      "range": 32
     },
     {
       "class": "com.cricketcraft.chisel.entity.EntityCloudInABottle",
