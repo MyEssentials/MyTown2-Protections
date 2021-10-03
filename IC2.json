@@ -78,15 +78,10 @@
           "type": "METHOD"
         }
       ],
-      "range": [
-        {
-          "element": "minDistanceSq * 3.0",
-          "type": "FORMULA"
-        }
-      ],
+      "range": 64,
 	  "explosivePower": [
         {
-          "element": "maxInfluenceDistance",
+          "element": "func_70071_h_.maxInfluenceDistance",
           "type": "FIELD"
         }
       ]
