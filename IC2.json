@@ -71,14 +71,20 @@
       "class": "ic2.core.item.tool.EntityParticle",
       "type": "entity",
       "actions": "TRACKED",
-      "flags": "EXPLOSIONS",
+      "flags": ["MODIFY","EXPLOSIONS"],
       "owner": [
         {
-          "element": "owner",
-          "type": "FIELD"
+          "element": "getThrower",
+          "type": "METHOD"
         }
       ],
-      "range": 20
+      "range": 64,
+	  "explosivePower": [
+        {
+          "element": "func_70071_h_.maxInfluenceDistance",
+          "type": "FIELD"
+        }
+      ]
     },
     {
       "class": "ic2.core.item.ItemIC2",

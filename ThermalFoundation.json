@@ -1,0 +1,13 @@
+{
+  "modid": "ThermalFoundation",
+  "segments": [
+    {
+      "class": "cofh.core.item.ItemBucket",
+      "type": "item",
+      "actions": ["RIGHT_CLICK_BLOCK","RIGHT_CLICK_AIR"],
+      "isAdjacent": false,
+      "flags": "MODIFY",
+      "range": 16
+    }
+  ]
+}
