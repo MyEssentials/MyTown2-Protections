@@ -77,6 +77,14 @@
       "range": 128
     },
     {
+      "class": "vazkii.botania.common.item.ItemOpenBucket",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": false,
+      "flags": "USAGE",
+      "range": 16
+    },
+    {
       "class": "vazkii.botania.common.item.ItemLaputaShard",
       "type": "item",
       "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
